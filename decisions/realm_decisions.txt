@@ -787,6 +787,7 @@ decisions = {
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
 					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 			}
 		}
@@ -907,6 +908,7 @@ decisions = {
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
 					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 			}
 		}
@@ -1494,7 +1496,8 @@ decisions = {
 					has_landed_title = d_varangian_guard
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
-					has_landed_title = d_zoroastrian_band					
+					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 			}
 			has_global_flag = charlemagne_hre
@@ -1601,6 +1604,7 @@ decisions = {
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
 					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 			}
 			NOT = { has_global_flag = charlemagne_hre }
@@ -1933,6 +1937,7 @@ decisions = {
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
 					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 			}
 			has_dlc = "Charlemagne"
@@ -2089,6 +2094,7 @@ decisions = {
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
 					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 			}
 			has_dlc = "Charlemagne"
@@ -2342,6 +2348,7 @@ decisions = {
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
 					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 			}
 			is_tribal = yes

@@ -180,6 +180,7 @@ decisions = {
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
 					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 			NOT = {
 				realm_size = 1
@@ -246,6 +247,7 @@ decisions = {
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
 					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 			realm_size = 1
 			is_feudal = yes
@@ -310,6 +312,7 @@ decisions = {
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
 					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 			capital_scope = {
 				NOT = { religion = ROOT }
@@ -375,7 +378,8 @@ decisions = {
 					has_landed_title = d_varangian_guard
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
-					has_landed_title = d_zoroastrian_band					
+					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company					
 				} 
 			religion = norse_pagan
 			d_norse_pagan_reformed = {
@@ -437,6 +441,7 @@ decisions = {
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
 					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 			religion = tengri_pagan
 			d_tengri_pagan_reformed = {
@@ -498,6 +503,7 @@ decisions = {
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
 					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 			religion = finnish_pagan
 			d_finnish_pagan_reformed = {
@@ -559,6 +565,7 @@ decisions = {
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
 					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 			religion = slavic_pagan
 			d_slavic_pagan_reformed = {
@@ -620,6 +627,7 @@ decisions = {
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
 					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 			religion = baltic_pagan
 			d_baltic_pagan_reformed = {
@@ -784,6 +792,7 @@ decisions = {
 	#				has_landed_title = d_victual_brothers
 	#				has_landed_title = d_white_company
 	#				has_landed_title = d_zoroastrian_band
+	#				has_landed_title = d_navarrese_company
 	#			} 
 	#	}
 	#	allow = {

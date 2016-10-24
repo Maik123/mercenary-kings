@@ -58,6 +58,7 @@ decisions = {
 					has_landed_title = d_victual_brothers
 					has_landed_title = d_white_company
 					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
 				} 
 		}
 		allow = {
@@ -118,6 +119,7 @@ decisions = {
 				has_landed_title = d_victual_brothers
 				has_landed_title = d_white_company
 				has_landed_title = d_zoroastrian_band
+				has_landed_title = d_navarrese_company
 			}
 		}
 		allow = {
@@ -188,6 +190,7 @@ decisions = {
 				has_landed_title = d_victual_brothers
 				has_landed_title = d_white_company
 				has_landed_title = d_zoroastrian_band
+				has_landed_title = d_navarrese_company
 			}
 		}
 		allow = {
@@ -257,6 +260,7 @@ decisions = {
 				has_landed_title = d_victual_brothers
 				has_landed_title = d_white_company
 				has_landed_title = d_zoroastrian_band
+				has_landed_title = d_navarrese_company
 			}
 		}
 		allow = {
@@ -326,6 +330,7 @@ decisions = {
 				has_landed_title = d_victual_brothers
 				has_landed_title = d_white_company
 				has_landed_title = d_zoroastrian_band
+				has_landed_title = d_navarrese_company
 			}
 		}
 		allow = {
@@ -395,6 +400,7 @@ decisions = {
 				has_landed_title = d_victual_brothers
 				has_landed_title = d_white_company
 				has_landed_title = d_zoroastrian_band
+				has_landed_title = d_navarrese_company
 			}
 		}
 		allow = {
@@ -471,6 +477,7 @@ decisions = {
 				has_landed_title = d_victual_brothers
 				has_landed_title = d_white_company
 				has_landed_title = d_zoroastrian_band
+				has_landed_title = d_navarrese_company
 			}
 		}
 		allow = {
@@ -541,6 +548,7 @@ decisions = {
 				has_landed_title = d_victual_brothers
 				has_landed_title = d_white_company
 				has_landed_title = d_zoroastrian_band
+				has_landed_title = d_navarrese_company
 			}
 		}
 		allow = {
@@ -601,6 +609,7 @@ decisions = {
 				has_landed_title = d_victual_brothers
 				has_landed_title = d_white_company
 				has_landed_title = d_zoroastrian_band
+				has_landed_title = d_navarrese_company
 			}
 		}
 		allow = {
