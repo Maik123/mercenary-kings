@@ -1,0 +1,4 @@
+asked_for_donation_mk = {
+	icon = 24
+	monthly_character_prestige = -1
+}

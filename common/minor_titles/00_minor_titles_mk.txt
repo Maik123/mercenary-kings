@@ -1,0 +1,47 @@
+title_mercenary_general = {
+	dignity = 0.05
+	realm_in_name = yes
+	grant_limit = 3
+	opinion_effect = 25
+	
+	monthly_salary = 0.25
+	monthly_prestige = 0.2
+	
+	allow = {
+		FROM = {
+			has_landed_title = d_swiss_company
+		}
+		is_female = no
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_boyar_druzhina = {
+	dignity = 0.05
+	realm_in_name = yes
+	grant_limit = 10
+	opinion_effect = 25
+	
+	monthly_salary = 0.25
+	monthly_prestige = 0.4
+	
+	allow = {
+		FROM = {
+			has_landed_title = d_druzhina_rus
+		}
+		is_female = no
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}

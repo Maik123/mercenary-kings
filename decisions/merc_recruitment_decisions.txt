@@ -1,0 +1,1110 @@
+decisions = {
+	#raise_soldiers = {
+	#	is_high_prio = yes
+	#	potential = {
+	#		ai = no	
+	#		has_landed_title = d_swiss_company
+	#	}
+	#	allow = {
+	#		wealth = 300
+	#	}
+	#	effect = {
+	#		character_event = { id = mkmod.6 days = 1 tooltip = "Purchase some new recruits." }
+	#	}
+	#}
+	
+	####################################################
+	#												   #
+	# 				Vanilla (for all factions)		   #
+	#												   #
+	####################################################
+	#Purchase a Galley
+	purchase_fleet = {
+		is_high_prio = yes
+		potential = {
+			ai = no	
+			OR = {
+					has_landed_title = d_swiss_company
+					has_landed_title = d_latinikon
+					has_landed_title = d_alan_band
+					has_landed_title = d_breton_company
+					has_landed_title = d_bulgarian_company  
+					has_landed_title = d_catalan_company  
+					has_landed_title = d_company_of_st_george					
+					has_landed_title = d_cuman_company  
+					has_landed_title = d_danelaw_band  
+					has_landed_title = d_druzhina_polish  
+					has_landed_title = d_druzhina_rus  
+					has_landed_title = d_finnish_band  
+					has_landed_title = d_fjord_riders 
+					has_landed_title = d_genoese_band
+					has_landed_title = d_ghanan_band  
+					has_landed_title = d_great_company  
+					has_landed_title = d_irish_band  
+					has_landed_title = d_knights_brass_cross  
+					has_landed_title = d_mamluks  
+					has_landed_title = d_nubian_band  
+					has_landed_title = d_old_saxon_band  
+					has_landed_title = d_pannonian_band  
+					has_landed_title = d_pictish_host 
+					has_landed_title = d_rose_company					
+					has_landed_title = d_rus_company  
+					has_landed_title = d_scottish_band  
+					has_landed_title = d_shiite_bedouin_company  
+					has_landed_title = d_shiite_turkic_company  
+					has_landed_title = d_sunni_bedouin_company  
+					has_landed_title = d_sunni_berber_company  
+					has_landed_title = d_sunni_turkic_company
+					has_landed_title = d_victual_brothers
+					has_landed_title = d_white_company
+					has_landed_title = d_zoroastrian_band
+				} 
+		}
+		allow = {
+			wealth = 100
+		}
+		effect = {
+			wealth = -100
+			spawn_fleet = {
+				province = closest
+				owner = ROOT
+				disband_on_peace = no
+				earmark = purchased_merc_ships
+				troops = {
+					galleys = { 10 10 }
+				}
+			}
+		}
+	}
+	
+	#SOLDIERS
+	raise_shock = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			OR = {
+				has_landed_title = d_swiss_company
+				has_landed_title = d_latinikon
+				has_landed_title = d_alan_band
+				has_landed_title = d_breton_company
+				has_landed_title = d_bulgarian_company  
+				has_landed_title = d_catalan_company  
+				has_landed_title = d_company_of_st_george  
+				has_landed_title = d_cuman_company  
+				has_landed_title = d_danelaw_band  
+				has_landed_title = d_druzhina_polish  
+				has_landed_title = d_druzhina_rus  
+				has_landed_title = d_finnish_band  
+				has_landed_title = d_fjord_riders  
+				has_landed_title = d_genoese_band  
+				has_landed_title = d_ghanan_band  
+				has_landed_title = d_great_company  
+				has_landed_title = d_irish_band  
+				has_landed_title = d_knights_brass_cross  
+				has_landed_title = d_mamluks  
+				has_landed_title = d_nubian_band  
+				has_landed_title = d_old_saxon_band  
+				has_landed_title = d_pannonian_band  
+				has_landed_title = d_pictish_host  
+				has_landed_title = d_rose_company  
+				has_landed_title = d_rus_company  
+				has_landed_title = d_scottish_band  
+				has_landed_title = d_shiite_bedouin_company  
+				has_landed_title = d_shiite_turkic_company  
+				has_landed_title = d_sunni_bedouin_company  
+				has_landed_title = d_sunni_berber_company  
+				has_landed_title = d_sunni_turkic_company
+				has_landed_title = d_varangian_guard
+				has_landed_title = d_victual_brothers
+				has_landed_title = d_white_company
+				has_landed_title = d_zoroastrian_band
+			}
+		}
+		allow = {
+			wealth = 170
+			in_command = yes
+		}
+		effect = {
+			wealth = -170
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						#light_infantry = { 800 800 }
+						archers = { 500 500 }
+						#pikemen= { 200 200 }
+						heavy_infantry = { 2000 2000 }
+						#light_cavalry = { 200 200 }
+						#knights = { 1500 1500}
+						#horse_archers = { 1000 1000 }
+						#war_elephants = { 1000 1000 }
+					}
+					maintenance_multiplier = 0.175
+					reinforces = yes
+					reinforce_rate_multiplier = 1.4
+				}
+			}
+		}
+	}
+
+	raise_defence = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			OR = {
+				has_landed_title = d_swiss_company
+				has_landed_title = d_latinikon
+				has_landed_title = d_alan_band
+				has_landed_title = d_breton_company
+				has_landed_title = d_bulgarian_company  
+				has_landed_title = d_catalan_company  
+				has_landed_title = d_company_of_st_george  
+				has_landed_title = d_cuman_company  
+				has_landed_title = d_danelaw_band  
+				has_landed_title = d_druzhina_polish  
+				has_landed_title = d_druzhina_rus  
+				has_landed_title = d_finnish_band  
+				has_landed_title = d_fjord_riders  
+				has_landed_title = d_genoese_band  
+				has_landed_title = d_ghanan_band  
+				has_landed_title = d_great_company  
+				has_landed_title = d_irish_band  
+				has_landed_title = d_knights_brass_cross  
+				has_landed_title = d_mamluks  
+				has_landed_title = d_nubian_band  
+				has_landed_title = d_old_saxon_band  
+				has_landed_title = d_pannonian_band  
+				has_landed_title = d_pictish_host  
+				has_landed_title = d_rose_company  
+				has_landed_title = d_rus_company  
+				has_landed_title = d_scottish_band  
+				has_landed_title = d_shiite_bedouin_company  
+				has_landed_title = d_shiite_turkic_company  
+				has_landed_title = d_sunni_bedouin_company  
+				has_landed_title = d_sunni_berber_company  
+				has_landed_title = d_sunni_turkic_company
+				has_landed_title = d_varangian_guard
+				has_landed_title = d_victual_brothers
+				has_landed_title = d_white_company
+				has_landed_title = d_zoroastrian_band
+			}
+		}
+		allow = {
+			wealth = 125
+			in_command = yes
+		}
+		effect = {
+			wealth = -125
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						#light_infantry = { 800 800 }
+						archers = { 500 500 }
+						pikemen= { 2500 2500 }
+						#heavy_infantry = { 2000 2000 }
+						#light_cavalry = { 200 200 }
+						#knights = { 1500 1500}
+						#horse_archers = { 1000 1000 }
+					}
+					maintenance_multiplier = 0.15
+					reinforces = yes
+					reinforce_rate_multiplier = 1.8
+				}
+			}
+		}
+	}
+
+	raise_cavalry = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			OR = {
+				has_landed_title = d_swiss_company
+				has_landed_title = d_latinikon
+				has_landed_title = d_alan_band
+				has_landed_title = d_breton_company
+				has_landed_title = d_bulgarian_company  
+				has_landed_title = d_catalan_company  
+				has_landed_title = d_company_of_st_george  
+				has_landed_title = d_cuman_company  
+				has_landed_title = d_danelaw_band  
+				has_landed_title = d_druzhina_polish  
+				has_landed_title = d_druzhina_rus  
+				has_landed_title = d_finnish_band  
+				has_landed_title = d_fjord_riders  
+				has_landed_title = d_genoese_band  
+				has_landed_title = d_ghanan_band  
+				has_landed_title = d_great_company  
+				has_landed_title = d_irish_band  
+				has_landed_title = d_knights_brass_cross  
+				has_landed_title = d_mamluks  
+				has_landed_title = d_nubian_band  
+				has_landed_title = d_old_saxon_band  
+				has_landed_title = d_pannonian_band  
+				has_landed_title = d_pictish_host  
+				has_landed_title = d_rose_company  
+				has_landed_title = d_rus_company  
+				has_landed_title = d_scottish_band  
+				has_landed_title = d_shiite_bedouin_company  
+				has_landed_title = d_shiite_turkic_company  
+				has_landed_title = d_sunni_bedouin_company  
+				has_landed_title = d_sunni_berber_company  
+				has_landed_title = d_sunni_turkic_company
+				has_landed_title = d_varangian_guard
+				has_landed_title = d_victual_brothers
+				has_landed_title = d_white_company
+				has_landed_title = d_zoroastrian_band
+			}
+		}
+		allow = {
+			wealth = 285
+			in_command = yes
+		}
+		effect = {
+			wealth = -285
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						#light_infantry = { 800 800 }
+						#archers = { 500 500 }
+						#pikemen= { 200 200 }
+						#heavy_infantry = { 2000 2000 }
+						light_cavalry = { 2000 2000 }
+						knights = { 500 500}
+						#horse_archers = { 1000 1000 }
+					}
+					maintenance_multiplier = 0.225
+					reinforces = yes
+					reinforce_rate_multiplier = 1.4
+				}
+			}
+		}
+	}
+
+	raise_skirmish = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			OR = {
+				has_landed_title = d_swiss_company
+				has_landed_title = d_latinikon
+				has_landed_title = d_alan_band
+				has_landed_title = d_breton_company
+				has_landed_title = d_bulgarian_company  
+				has_landed_title = d_catalan_company  
+				has_landed_title = d_company_of_st_george  
+				has_landed_title = d_cuman_company  
+				has_landed_title = d_danelaw_band  
+				has_landed_title = d_druzhina_polish  
+				has_landed_title = d_druzhina_rus  
+				has_landed_title = d_finnish_band  
+				has_landed_title = d_fjord_riders  
+				has_landed_title = d_genoese_band  
+				has_landed_title = d_ghanan_band  
+				has_landed_title = d_great_company  
+				has_landed_title = d_irish_band  
+				has_landed_title = d_knights_brass_cross  
+				has_landed_title = d_mamluks  
+				has_landed_title = d_nubian_band  
+				has_landed_title = d_old_saxon_band  
+				has_landed_title = d_pannonian_band  
+				has_landed_title = d_pictish_host  
+				has_landed_title = d_rose_company  
+				has_landed_title = d_rus_company  
+				has_landed_title = d_scottish_band  
+				has_landed_title = d_shiite_bedouin_company  
+				has_landed_title = d_shiite_turkic_company  
+				has_landed_title = d_sunni_bedouin_company  
+				has_landed_title = d_sunni_berber_company  
+				has_landed_title = d_sunni_turkic_company
+				has_landed_title = d_varangian_guard
+				has_landed_title = d_victual_brothers
+				has_landed_title = d_white_company
+				has_landed_title = d_zoroastrian_band
+			}
+		}
+		allow = {
+			wealth = 105
+			in_command = yes
+		}
+		effect = {
+			wealth = -105
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						#light_infantry = { 800 800 }
+						archers = { 2000 2000 }
+						#pikemen= { 200 200 }
+						heavy_infantry = { 500 500 }
+						#light_cavalry = { 200 200 }
+						#knights = { 1500 1500}
+						#horse_archers = { 1000 1000 }
+					}
+					maintenance_multiplier = 0.1375
+					reinforces = yes
+					reinforce_rate_multiplier = 1.4
+				}
+			}
+		}
+	}
+
+	raise_light_skirmish = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			OR = {
+				has_landed_title = d_swiss_company
+				has_landed_title = d_latinikon
+				has_landed_title = d_alan_band
+				has_landed_title = d_breton_company
+				has_landed_title = d_bulgarian_company  
+				has_landed_title = d_catalan_company  
+				has_landed_title = d_company_of_st_george  
+				has_landed_title = d_cuman_company  
+				has_landed_title = d_danelaw_band  
+				has_landed_title = d_druzhina_polish  
+				has_landed_title = d_druzhina_rus  
+				has_landed_title = d_finnish_band  
+				has_landed_title = d_fjord_riders  
+				has_landed_title = d_genoese_band  
+				has_landed_title = d_ghanan_band  
+				has_landed_title = d_great_company  
+				has_landed_title = d_irish_band  
+				has_landed_title = d_knights_brass_cross  
+				has_landed_title = d_mamluks  
+				has_landed_title = d_nubian_band  
+				has_landed_title = d_old_saxon_band  
+				has_landed_title = d_pannonian_band  
+				has_landed_title = d_pictish_host  
+				has_landed_title = d_rose_company  
+				has_landed_title = d_rus_company  
+				has_landed_title = d_scottish_band  
+				has_landed_title = d_shiite_bedouin_company  
+				has_landed_title = d_shiite_turkic_company  
+				has_landed_title = d_sunni_bedouin_company  
+				has_landed_title = d_sunni_berber_company  
+				has_landed_title = d_sunni_turkic_company
+				has_landed_title = d_varangian_guard
+				has_landed_title = d_victual_brothers
+				has_landed_title = d_white_company
+				has_landed_title = d_zoroastrian_band
+			}
+		}
+		allow = {
+			wealth = 120
+			in_command = yes
+		}
+		effect = {
+			wealth = -120
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						light_infantry = { 4000 4000 }
+						archers = { 1500 1500 }
+						#pikemen= { 200 200 }
+						#heavy_infantry = { 2000 2000 }
+						#light_cavalry = { 200 200 }
+						#knights = { 1500 1500}
+						#horse_archers = { 1000 1000 }
+					}
+					maintenance_multiplier = 0.145
+					reinforces = yes
+					reinforce_rate_multiplier = 1.7
+				}
+			}
+		}
+	}
+
+	raise_knights = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			OR = {
+				culture = french
+				culture = norman
+				culture = occitan
+				culture = german
+				culture = breton
+			}
+			OR = {
+				has_landed_title = d_swiss_company
+				has_landed_title = d_latinikon
+				has_landed_title = d_alan_band
+				has_landed_title = d_breton_company
+				has_landed_title = d_bulgarian_company  
+				has_landed_title = d_catalan_company  
+				has_landed_title = d_company_of_st_george  
+				has_landed_title = d_cuman_company  
+				has_landed_title = d_danelaw_band  
+				has_landed_title = d_druzhina_polish  
+				has_landed_title = d_druzhina_rus  
+				has_landed_title = d_finnish_band  
+				has_landed_title = d_fjord_riders  
+				has_landed_title = d_genoese_band  
+				has_landed_title = d_ghanan_band  
+				has_landed_title = d_great_company  
+				has_landed_title = d_irish_band  
+				has_landed_title = d_knights_brass_cross  
+				has_landed_title = d_mamluks  
+				has_landed_title = d_nubian_band  
+				has_landed_title = d_old_saxon_band  
+				has_landed_title = d_pannonian_band  
+				has_landed_title = d_pictish_host  
+				has_landed_title = d_rose_company  
+				has_landed_title = d_rus_company  
+				has_landed_title = d_scottish_band  
+				has_landed_title = d_shiite_bedouin_company  
+				has_landed_title = d_shiite_turkic_company  
+				has_landed_title = d_sunni_bedouin_company  
+				has_landed_title = d_sunni_berber_company  
+				has_landed_title = d_sunni_turkic_company
+				has_landed_title = d_varangian_guard
+				has_landed_title = d_victual_brothers
+				has_landed_title = d_white_company
+				has_landed_title = d_zoroastrian_band
+			}
+		}
+		allow = {
+			wealth = 505
+			in_command = yes
+		}
+		effect = {
+			wealth = -505
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						#light_infantry = { 800 800 }
+						#archers = { 500 500 }
+						#pikemen= { 200 200 }
+						#heavy_infantry = { 2000 2000 }
+						light_cavalry = { 1000 1000 }
+						knights = { 1500 1500}
+						#horse_archers = { 1000 1000 }
+					}
+					maintenance_multiplier = 0.3
+					reinforces = yes
+					reinforce_rate_multiplier = 1.4
+				}
+			}
+		}
+	}
+	
+	raise_cataphracts = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			culture_group = byzantine
+			OR = {
+				has_landed_title = d_swiss_company
+				has_landed_title = d_latinikon
+				has_landed_title = d_alan_band
+				has_landed_title = d_breton_company
+				has_landed_title = d_bulgarian_company  
+				has_landed_title = d_catalan_company  
+				has_landed_title = d_company_of_st_george  
+				has_landed_title = d_cuman_company  
+				has_landed_title = d_danelaw_band  
+				has_landed_title = d_druzhina_polish  
+				has_landed_title = d_druzhina_rus  
+				has_landed_title = d_finnish_band  
+				has_landed_title = d_fjord_riders  
+				has_landed_title = d_genoese_band  
+				has_landed_title = d_ghanan_band  
+				has_landed_title = d_great_company  
+				has_landed_title = d_irish_band  
+				has_landed_title = d_knights_brass_cross  
+				has_landed_title = d_mamluks  
+				has_landed_title = d_nubian_band  
+				has_landed_title = d_old_saxon_band  
+				has_landed_title = d_pannonian_band  
+				has_landed_title = d_pictish_host  
+				has_landed_title = d_rose_company  
+				has_landed_title = d_rus_company  
+				has_landed_title = d_scottish_band  
+				has_landed_title = d_shiite_bedouin_company  
+				has_landed_title = d_shiite_turkic_company  
+				has_landed_title = d_sunni_bedouin_company  
+				has_landed_title = d_sunni_berber_company  
+				has_landed_title = d_sunni_turkic_company
+				has_landed_title = d_varangian_guard
+				has_landed_title = d_victual_brothers
+				has_landed_title = d_white_company
+				has_landed_title = d_zoroastrian_band
+			}
+		}
+		allow = {
+			wealth = 590
+			in_command = yes
+		}
+		effect = {
+			wealth = -590
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						knights = { 1500 1500}
+						horse_archers = { 1000 1000 }
+					}
+					maintenance_multiplier = 0.325
+					reinforces = yes
+					reinforce_rate_multiplier = 1.4
+				}
+			}
+		}
+	}
+	
+	raise_peasants = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			OR = {
+				has_landed_title = d_swiss_company
+				has_landed_title = d_latinikon
+				has_landed_title = d_alan_band
+				has_landed_title = d_breton_company
+				has_landed_title = d_bulgarian_company  
+				has_landed_title = d_catalan_company  
+				has_landed_title = d_company_of_st_george  
+				has_landed_title = d_cuman_company   
+				has_landed_title = d_druzhina_polish  
+				has_landed_title = d_druzhina_rus  
+				has_landed_title = d_finnish_band   
+				has_landed_title = d_genoese_band  
+				has_landed_title = d_ghanan_band  
+				has_landed_title = d_great_company  
+				has_landed_title = d_irish_band  
+				has_landed_title = d_knights_brass_cross    
+				has_landed_title = d_nubian_band  
+				has_landed_title = d_old_saxon_band  
+				has_landed_title = d_pannonian_band  
+				has_landed_title = d_pictish_host  
+				has_landed_title = d_rose_company  
+				has_landed_title = d_rus_company  
+				has_landed_title = d_scottish_band  
+				has_landed_title = d_shiite_turkic_company
+				has_landed_title = d_shiite_bedouin_company    
+				has_landed_title = d_sunni_bedouin_company  
+				has_landed_title = d_sunni_berber_company  
+				has_landed_title = d_sunni_turkic_company 
+				has_landed_title = d_victual_brothers
+				has_landed_title = d_white_company
+				has_landed_title = d_zoroastrian_band
+			}
+		}
+		allow = {
+			war = yes
+			prestige = 150
+			in_command = yes
+			
+		}
+		effect = {
+			prestige = -150
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						archers = { 500 500 }
+						light_infantry = { 1000 1000 }
+					}
+					disband_on_peace = yes
+					maintenance_multiplier = 0.145
+				}
+			}
+		}
+	}
+	
+	
+	#VIKING BANDS
+	hire_varangians = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			OR = {
+				has_landed_title = d_fjord_riders
+				has_landed_title = d_danelaw_band 
+				has_landed_title = d_rus_company
+			}
+		}
+		allow = {
+			wealth = 300
+			prestige = 100
+			in_command = yes
+			year = 793
+		}
+		effect = {
+			wealth = -300
+			prestige = -100
+			create_random_soldier = {
+				random_traits = no
+				dynasty = random
+				religion = ROOT
+				culture = norse
+				trait = viking
+				trait = ambitious
+				trait = wroth
+				trait = brave
+			}
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						archers = { 350 350 }
+						heavy_infantry = { 1650 1650 }
+					}
+					maintenance_multiplier = 0.3
+				}
+			}
+		}
+	}
+	
+	hire_thegns = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			OR = {
+				has_landed_title = d_fjord_riders
+				has_landed_title = d_danelaw_band 
+			}
+		}
+		allow = {
+			wealth = 100
+			prestige = 300
+			in_command = yes
+		}
+		effect = {
+			wealth = 100
+			prestige = -300
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						archers = { 500 500 }
+						light_infantry = { 1500 1500 }
+					}
+					maintenance_multiplier = 0.3
+				}
+			}
+		}
+	}
+	
+	#Altaic bands and turkish bands
+	hire_horse_archers = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			OR = {
+				has_landed_title = d_alan_band
+				has_landed_title = d_cuman_company 
+				has_landed_title = d_pannonian_band  
+				has_landed_title = d_shiite_turkic_company
+				has_landed_title = d_sunni_turkic_company
+			}
+		}
+		allow = {
+			wealth = 300
+			in_command = yes
+		}
+		effect = {
+			wealth = -300
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						horse_archers = { 600 600 }
+						light_cavalry = { 300 300 }
+					}
+					maintenance_multiplier = 0.3
+				}
+			}
+		}
+	}
+	
+	#MAMLUKS
+	raise_caucasians = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			has_landed_title = d_mamluks
+		}
+		allow = {
+			wealth = 300
+			prestige = 50
+			in_command = yes
+		}
+		effect = {
+			wealth = -300
+			prestige = -50
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						light_infantry = { 800 800 }
+						archers = { 200 200 }
+						pikemen = { 400 400 }
+						light_cavalry = { 150 150 }
+						knights = { 250 250}
+					}
+					maintenance_multiplier = 0.3
+				}
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = georgian
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = georgian
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = georgian
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = georgian
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = georgian
+			}
+		}
+	}
+	
+	press_slaves = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			has_landed_title = d_mamluks
+		}
+		allow = {
+			prestige = 300
+			in_command = yes
+		}
+		effect = {
+			prestige = -300
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						light_infantry = { 1000 1000 }
+						light_cavalry = { 450 450}
+					}
+					maintenance_multiplier = 0.3
+				}
+			}
+		}
+	}
+	
+	#VARANGIAN GUARD RECRUITMENT (quite a few)
+	hire_norsemen = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			has_landed_title = d_varangian_guard
+		}
+		allow = {
+			wealth = 600
+			in_command = yes
+		}
+		effect = {
+			wealth = -600
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = norwegian
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = norwegian
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = danish
+			}
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						heavy_infantry = { 1000 1000 }
+						archers = { 500 500 }
+						light_infantry = { 1000 1000 }
+					}
+					maintenance_multiplier = 0.3
+				}
+			}
+			spawn_fleet = {
+				province = closest
+				owner = ROOT
+				disband_on_peace = no
+				troops = {
+					galleys = { 5 5 }
+				}
+			}
+		}
+	}
+	
+	hire_rus_varangians = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			has_landed_title = d_varangian_guard
+		}
+		allow = {
+			wealth = 100
+			prestige = 600
+			in_command = yes
+		}
+		effect = {
+			wealth = -100
+			prestige = -600
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = orthodox
+				culture = russian
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = orthodox
+				culture = russian
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = orthodox
+				culture = russian
+			}
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						horse_archers = { 250 250 }
+						knights = { 250 250 }
+						light_cavalry = { 150 150 }
+						archers = { 300 300 }
+						heavy_infantry = { 750 750 }
+					}
+					maintenance_multiplier = 0.3
+				}
+			}
+		}
+	}
+	
+	purchase_slavic_thegns = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			has_landed_title = d_varangian_guard
+		}
+		allow = {
+			wealth = 150
+			prestige = 250
+			in_command = yes
+		}
+		effect = {
+			wealth = -150
+			prestige = -250
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = orthodox
+				culture = bulgarian
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = orthodox
+				culture = serbian
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = orthodox
+				culture = romanian
+			}
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						archers = { 900 900 }
+						light_infantry = { 300 300 }
+					}
+					maintenance_multiplier = 0.3
+				}
+			}
+		}
+	}
+	
+	#after the anglo-saxon refugees come
+	hire_anglo_saxons = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			has_landed_title = d_varangian_guard
+			year = 1088
+		}
+		allow = {
+			wealth = 400
+			in_command = yes
+		}
+		effect = {
+			wealth = -400
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = saxon
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = saxon
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = catholic
+				culture = saxon
+			}
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						heavy_infantry = { 500 500 }
+						archers = { 500 500 }
+						light_infantry = { 500 500 }
+					}
+					maintenance_multiplier = 0.3
+				}
+			}
+		}
+	}
+	
+	#Swiss Pikemen
+	raise_swiss_pikemen = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			has_landed_title = d_swiss_company
+		}
+		allow = {
+			wealth = 300
+			in_command = yes
+		}
+		effect = {
+			wealth = -300
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						archers = { 500 500 }
+						pikemen= { 950 950 }
+					}
+					maintenance_multiplier = 0.3
+				}
+			}
+		}
+	}
+	
+	#Italian Pikemen
+	hire_italian_soldiers = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			OR = {
+				has_landed_title = d_company_of_st_george
+				has_landed_title = d_rose_company
+			}
+		}
+		allow = {
+			wealth = 300
+			in_command = yes
+		}
+		effect = {
+			wealth = -300
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						archers = { 600 600 }
+						pikemen= { 575 575 }
+						light_infantry = { 550 550 }
+						light_cavalry = { 100 100 }
+					}
+					maintenance_multiplier = 0.3
+				}
+			}
+		}
+	}
+	
+	#Genoese Archers
+	hire_genoese_archers = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			has_landed_title = d_genoese_band
+		}
+		allow = {
+			wealth = 300
+			in_command = yes
+		}
+		effect = {
+			wealth = -300
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						archers = { 1900 1900 }
+						heavy_infantry = { 100 100 }
+						pikemen = { 100 100}
+					}
+					maintenance_multiplier = 0.3
+				}
+			}
+		}
+	}
+	
+# CLOSE DECISIONS
+}

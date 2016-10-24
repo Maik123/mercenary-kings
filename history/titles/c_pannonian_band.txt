@@ -1,0 +1,11 @@
+768.1.1={
+	holder = 500086
+	law = succ_feudal_elective
+}
+867.1.1={
+	holder = 500186
+}
+1066.1.1={
+	holder = 500286
+	religion = catholic
+}

@@ -1,0 +1,176 @@
+8000001 = { #Alan Band
+	name="Aravatid"
+	culture = alan
+}
+
+8000002 = { #Breton Company
+	name="mab Richwin"
+	culture = breton
+}
+
+8000003 = { #Bulgarian Company
+	name="Momchilov"
+	culture = bulgarian
+}
+
+8000004 = { #St George company
+	name="Maginulfing"
+	culture = lombard
+}
+
+8000005 = { #Cuman Company
+	name="Qipchak"
+	culture = cuman
+}
+
+8000006 = { #Finnish Band
+	name="Haapala"
+	culture = finnish
+}
+
+8000007 = { #Fjord Riders
+	name="Thorsteinsson"
+	culture = norse
+}
+
+8000008 = { #Genoese Band
+	name="Genovese"
+	culture = italian
+}
+
+8000009 = { #Ghanan Band
+	name="Gueye"
+	culture = manden
+}
+
+8000010 = { #great Company
+	name="Herrmann"
+	culture = german
+}
+
+8000011 = { #Irish Band
+	name="mac Cuindles"
+	culture = irish
+}
+
+8000012 = { #Mamluks
+	name="Hanriyid"
+	culture = alan
+}
+
+8000013 = { #Nubian band
+	name="Elijah"
+	culture = nubian
+}
+
+8000014 = { #Saxon band
+	name="Balthasarson"
+	culture = old_saxon
+}
+
+8000015 = { #Rose Company
+	name="de Rosa"
+	culture = italian
+}
+
+8000016 = { #Rus Company
+	name="Yevstafovich"
+	culture = russian
+}
+
+8000017 = { #Scottish Band
+	name="map Lachlan"
+	culture = scottish
+}
+
+8000018 = { #shiite bedouin company
+	name="Najibid"
+	culture = bedouin_arabic
+}
+
+8000019 = { #shiite turkic company
+	name="Kutalmisid"
+	culture = turkish
+}
+
+8000020 = { #sunni bedouin company
+	name="Yahyayid"
+	culture = alan
+}
+
+8000021 = { #sunni berber company
+	name="Ureghid"
+	culture = maghreb_arabic
+}
+
+8000022 = { #sunni turkic company
+	name="Belekid"
+	culture = turkish
+}
+
+8000023 = { #swiss company
+	name="Gallatin"
+	culture = frankish
+}
+
+8000024 = { #victual brothers
+	name="Kuilis"
+	culture = prussian
+}
+
+8000025 = { #white company
+	name="Wulfson"
+	culture = saxon
+}
+
+8000026 = { #zoroastrian band
+	name="Maziarid"
+	culture = persian
+}
+
+8000027 = { #catalan company
+	name="Ramonuet"
+	culture = catalan
+}
+
+8000028 = { #Varangian Guard
+	name="Leifsson"
+	culture = norse
+}
+8000029 = { #Druzhina Rus
+	name = "Yaroslavovich"
+	culture = russian
+}
+8000030 = { #Druzhina Polish
+	name = "Grzegorziak"
+	culture = polish
+}
+
+8000031 = { #Pictish Host
+	name = "map Iestan"
+	culture = pictish
+}
+
+8000032 = { #Danelaw Host
+	name = "Annkarlsson"
+	culture = norse
+}
+
+8000033 = { #Knights Brass Cross
+	name = "Ottoling"
+	culture = german
+}
+
+8000034 = { #Pannonian Band
+	name = "Bognar"
+	culture = hungarian
+}
+
+8000035 = { #Latinikon
+	name = "Edwardson"
+	culture = norman
+}
+8000036 = { #Navarrese Company
+	name = "Zuria"
+	culture = basque
+}

@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_trait_mamluk"
+		texturefile = "gfx/traits/mamluk.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

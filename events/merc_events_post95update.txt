@@ -1,0 +1,155 @@
+namespace = mkmod
+
+#DANELAW EVENTS
+#Change Culture to Danish or Norwegian
+character_event = {
+	id = mkmod.16
+	desc = EVTDESCmkmod.16
+	
+	#is of the danelaw
+	trigger = {
+		has_landed_title = d_danelaw_band
+		culture = norse
+		year = 1000
+		NOT = {
+			year = 1200
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+	}
+	
+	option = {
+		name = "EVTOPTAmkmod.16"
+		culture = norwegian
+	}
+	
+	option = {
+		name = "EVTOPTBmkmod.16"
+		culture = danish
+	}
+	
+	option = {
+		name = "EVTOPTCmkmod.16"
+		prestige = 100
+	}
+}
+
+character_event = {
+	id = mkmod.17
+	desc = EVTDESCmkmod.17
+	picture = GFX_evt_bishop_preaching_from_a_pulpit
+	
+	#is of the danelaw
+	trigger = {
+		has_landed_title = d_danelaw_band
+		culture_group = north_germanic
+		NOT = {
+			religion_group = christian
+		}
+		year = 1000
+		NOT = {
+			year = 1200
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+	}
+	
+	option = {
+		name = "EVTOPTAmkmod.17"
+		religion = catholic
+		prestige = -100
+	}
+	
+	option = {
+		name = "EVTOPTBmkmod.17"
+		prestige = 200
+	}
+}
+
+character_event = {
+	id = mkmod.18
+	desc = EVTDESCmkmod.18
+	picture = GFX_evt_merchant_ship_at_sea_republic
+	
+	#has varangian guard
+	trigger = {
+		has_landed_title = d_varangian_guard
+		year = 1088
+		NOT = {  has_global_flag = saxons_arrive_in_greece }
+	}
+	
+	option = {
+		name = "EVTOPTAmkmod.18"
+		set_global_flag = saxons_arrive_in_greece
+		create_random_soldier = {
+			random_traits = yes
+			dynasty = random
+			religion = catholic
+			culture = saxon
+		}
+	}
+}
+
+#Doesn't have elective succession, FIXES SUCCESSION ISSUES VERY BLUNTLY
+character_event = {
+	id = mkmod.19
+	desc = EVTDESCmkmod.19
+	picture = GFX_evt_Ruler_listening_to_supplicant
+	
+	trigger = {
+		NOT = { 
+			has_character_flag =  has_elective_succession_mk 
+		}
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company 
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band
+			has_landed_title = d_navarrese_company
+		} 
+		NOT = { has_law = feudal_elective }
+	}
+	
+	option = {
+		name = "EVTOPTAmkmod.19"
+		primary_title = {
+			succession = feudal_elective
+		}
+		set_character_flag = has_elective_succession_mk
+	}
+}

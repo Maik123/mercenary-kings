@@ -1,0 +1,116 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_ask_for_donations"
+		texturefile = "gfx\\interface\\decision_icon_ask_for_donations.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_purchase_fleet"
+		texturefile = "gfx\\interface\\decision_icon_purchase_fleet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_build_castle"
+		texturefile = "gfx\\interface\\decision_icon_build_castle.dds"
+	}
+	spriteType = {
+		name = "GFX_raise_soldiers"
+		texturefile = "gfx\\interface\\decision_icon_raise_soldiers.dds"
+	}
+	spriteType = {
+		name = "GFX_expand_realm_castle"
+		texturefile = "gfx\\interface\\decision_icon_expand_realm_castle.dds"
+	}
+	spriteType = {
+		name = "GFX_change_warband_religion"
+		texturefile = "gfx\\interface\\decision_icon_change_warband_religion.dds"
+	}
+	spriteType = {
+	name = "GFX_change_to_reformed_norse"
+		texturefile = "gfx\\interface\\decision_icon_change_to_reformed_norse.dds"
+	}
+	spriteType = {
+	name = "GFX_change_to_reformed_tengri"
+		texturefile = "gfx\\interface\\decision_icon_change_to_reformed_tengri.dds"
+	}
+	spriteType = {
+	name = "GFX_change_to_reformed_baltic"
+		texturefile = "gfx\\interface\\decision_icon_change_to_reformed_baltic.dds"
+	}
+	spriteType = {
+	name = "GFX_change_to_reformed_slavic"
+		texturefile = "gfx\\interface\\decision_icon_change_to_reformed_slavic.dds"
+	}
+	spriteType = {
+	name = "GFX_change_to_reformed_finnish"
+		texturefile = "gfx\\interface\\decision_icon_change_to_reformed_finnish.dds"
+	}
+	spriteType = {
+	name = "GFX_african_slaves_mamluk"
+		texturefile = "gfx\\interface\\decision_icon_african_slaves_mamluk.dds"
+	}
+	spriteType = {
+	name = "GFX_turkic_slaves_mamluk"
+		texturefile = "gfx\\interface\\decision_icon_turkic_slaves_mamluk.dds"
+	}
+	spriteType = {
+		name = "GFX_adopt_son_merc"
+		texturefile = "gfx\\interface\\decision_icon_adopt_son_merc.dds"
+	}
+	spriteType = {
+	name = "GFX_raise_peasants"
+		texturefile = "gfx\\interface\\decision_icon_raise_peasants.dds"
+	}
+	spriteType = {
+		name = "GFX_hire_varangians"
+		texturefile = "gfx\\interface\\decision_icon_raise_soldiers.dds"
+	}
+	spriteType = {
+	name = "GFX_hire_thegns"
+		texturefile = "gfx\\interface\\decision_icon_raise_peasants.dds"
+	}
+	spriteType = {
+	name = "GFX_hire_horse_archers"
+		texturefile = "gfx\\interface\\decision_icon_turkic_slaves_mamluk.dds"
+	}
+	spriteType = {
+	name = "GFX_press_slaves"
+		texturefile = "gfx\\interface\\decision_icon_raise_peasants.dds"
+	}
+	spriteType = {
+	name = "GFX_raise_caucasians"
+		texturefile = "gfx\\interface\\decision_icon_raise_soldiers.dds"
+	}
+	spriteType = {
+	name = "GFX_purchase_slavic_thegns"
+		texturefile = "gfx\\interface\\decision_icon_raise_peasants.dds"
+	}
+	spriteType = {
+	name = "GFX_hire_norsemen"
+		texturefile = "gfx\\interface\\decision_icon_hire_norsemen.dds"
+	}
+	spriteType = {
+	name = "GFX_hire_rus_varangians"
+		texturefile = "gfx\\interface\\decision_icon_hire_rus_varangians.dds"
+	}
+	spriteType = {
+	name = "GFX_hire_anglo_saxons"
+		texturefile = "gfx\\interface\\decision_icon_hire_anglo_saxons.dds"
+	}
+	
+	spriteType = {
+	name = "GFX_raise_swiss_pikemen"
+		texturefile = "gfx\\interface\\decision_icon_raise_soldiers.dds"
+	}
+	
+	spriteType = {
+	name = "GFX_hire_italian_soldiers"
+		texturefile = "gfx\\interface\\decision_icon_raise_soldiers.dds"
+	}
+	
+	spriteType = {
+	name = "GFX_hire_genoese_archers"
+		texturefile = "gfx\\interface\\decision_icon_raise_soldiers.dds"
+	}
+}

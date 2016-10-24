@@ -1,0 +1,430 @@
+namespace = mkmod
+
+letter_event = {
+	id = mkmod.1
+	desc = "EVTDESCmkmod.1"
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAmkmod.1"
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100
+				trait = greedy
+				}
+		}
+		FROM = {
+			character_event = { id = mkmod.2 days = 17 tooltip = "is barred from sending another emissary for a year." }
+		}
+		prestige = 5
+	}
+	
+	option = {
+		name = "EVTOPTBmkmod.1"
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 3
+				OR = {
+					trait = charitable
+					trait = kind
+					wealth = 100
+				}
+			}
+		}
+		prestige = 20
+		wealth = -5
+		FROM = {
+			character_event = { id = mkmod.3 days = 17 tooltip = "is gifted a modest sum of gold." }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTCmkmod.1"
+		trigger = {
+			martial = 10
+			wealth = 35
+		}
+		ai_chance = {
+			factor = 10
+		}
+		prestige = 100
+		wealth = -35
+		change_diplomacy = 1
+		change_martial = 3
+		FROM = {
+			character_event = { id = mkmod.4 days = 17 tooltip = "is given a hefty sum of gold." }
+		}
+	}
+}
+
+letter_event = {
+	id = mkmod.2
+	desc = EVTDESCmkmod.2
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAmkmod.2"
+		prestige = -5
+	}
+}
+
+letter_event = {
+	id = mkmod.3
+	desc = EVTDESCmkmod.3
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAmkmod.3"
+		wealth = 5
+		prestige = 2
+	}
+}
+
+letter_event = {
+	id = mkmod.4
+	desc = EVTDESCmkmod.4
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAmkmod.4"
+		wealth = 35
+		prestige = 20
+	}
+}
+
+character_event = {
+	id = mkmod.6
+	desc = EVTDESCmkmod.6
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAmkmod.6"
+	}
+	option = {
+		name = "EVTOPTBmkmod.6"
+		trigger = {
+			wealth = 300
+		}
+		wealth = -300
+		spawn_unit = {
+			owner = ROOT
+			province = closest
+			home = closest
+			troops = {
+				light_infantry = { 275 275 }
+				heavy_infantry = { 250 250 }
+				archers = { 175 175 }
+			}
+			maintainance_multiplier = 0.5
+			disband_on_peace = no
+		}
+	}
+	option = {
+		name = "EVTOPTCmkmod.6"
+		trigger = {
+			wealth = 300
+		}
+		wealth = -300
+		spawn_unit = {
+			owner = ROOT
+			province = closest
+			home = closest
+			troops = {
+				light_cavalry = { 550 550 }
+				knights = { 55 55 }
+			}
+			maintainance_multiplier = 0.5
+			disband_on_peace = no
+		}
+	}
+	option = {
+		name = "EVTOPTDmkmod.6"
+		trigger = {
+			wealth = 300
+		}
+		wealth = -300
+		spawn_unit = {
+			owner = ROOT
+			province = closest
+			home = closest
+			troops = {
+				light_infantry = { 300 300}
+				pikemen = { 100 100 }
+				archers = { 275 275 }
+			}
+			maintainance_multiplier = 0.5
+			disband_on_peace = no
+		}
+	}
+}
+
+#MAMLUK EVENTS
+#Gain the Mamluk trait
+character_event = {
+	id = mkmod.7
+	desc = EVTDESCmkmod.7
+	picture = GFX_evt_Emissary_kneeling_before_throne_muslim
+	
+	trigger = {
+		OR = { #is in the Mamluks
+			has_landed_title = d_mamluks
+			any_liege = { has_landed_title = d_mamluks }
+		}
+		NOT = { trait = mamluk } #Doesn't have the Mamluk trait
+		is_female = no
+	}
+	
+	option = {
+		name = "EVTOPTAmkmod.7"
+		add_trait = mamluk
+	}
+}
+
+#Slave Warrior sold to Mamluks
+character_event = {
+	id = mkmod.8
+	desc = EVTDESCmkmod.8
+	picture = GFX_evt_desert
+	
+	trigger = {
+		has_landed_title = d_mamluks
+	}
+	mean_time_to_happen = {
+		months = 1200
+	}
+	
+	option = {
+		name = "EVTOPTAmkmod.8"
+		create_random_soldier = {
+			random_traits = yes
+			dynasty = random
+			religion = ROOT
+			culture = turkish
+			attributes = {
+				martial = 21
+				diplomacy = 4
+				stewardship = 5
+				intrigue = 13
+				learning = 4
+			}
+			female = no
+			trait = strong
+		}
+		wealth = -25
+	}
+	option = {
+		name = "EVTOPTBmkmod.8"
+		create_random_diplomat = {
+			random_traits = yes
+			dynasty = random
+			religion = ROOT
+			culture = greek
+			attributes = {
+				martial = 4
+				diplomacy = 14
+				stewardship = 5
+				intrigue = 4
+				learning = 21
+			}
+			female = no
+			trait = genius
+		}
+		wealth = -25
+	}
+	option = {
+		name = "EVTOPTCmkmod.8"
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = ROOT
+			culture = persian
+			female = yes
+			age = 17
+			trait = attractive
+		}
+		wealth = -25
+	}
+	option = {
+		name = "EVTOPTDmkmod.8"
+		prestige = 75
+		decadence = -10
+	}
+}
+
+#RUS DRUZHINA EVENTS
+#Follow the King of the Ruthenians!
+character_event = {
+	id = mkmod.10
+	desc = EVTDESCmkmod.10
+	picture = GFX_evt_Ruler_listening_to_supplicant
+	
+	trigger = {
+		has_landed_title = d_druzhina_rus
+		independent = yes
+		NOT = { has_dynasty_flag = druzhina_swear_fealty }
+		any_independent_ruler = {
+			OR= {
+				AND = {
+					has_landed_title = k_ruthenia
+					k_rus = { has_holder = no }
+				}
+				AND = {
+					has_landed_title = k_rus
+					k_ruthenia = { has_holder = no }
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTAmkmod.10"
+		prestige = 1000
+		set_dynasty_flag = druzhina_swear_fealty
+		any_independent_ruler = {
+			limit = { 
+				OR = { 
+					has_landed_title = k_ruthenia 
+					has_landed_title = k_rus
+				}
+			}
+			set_defacto_vassal = ROOT
+		}
+		give_nickname = nick_the_loyal
+	}
+	option = {
+		name = "EVTOPTBmkmod.10"
+		set_dynasty_flag = druzhina_swear_fealty
+	}
+}
+
+#Empire in tatters
+character_event = {
+	id = mkmod.11
+	desc = EVTDESCmkmod.11
+	picture = GFX_evt_Bishop_preaching_from_pulpit_byzantine
+	
+	trigger = {
+		has_landed_title = d_druzhina_rus
+		NOT = { has_dynasty_flag = druzhina_opening_message }
+	}
+	
+	option = {
+		name = "EVTOPTAmkmod.11"
+		set_dynasty_flag = druzhina_opening_message
+	}
+}
+
+#POLISH DRUZHINA EVENTS
+character_event = {
+	id = mkmod.12
+	desc = EVTDESCmkmod.12
+	
+	trigger = {
+		has_landed_title = d_druzhina_polish
+		NOT = { has_dynasty_flag = druzhina_opening_message_polish }
+	}
+	
+	option = {
+		name = "EVTOPTAmkmod.12"
+		set_dynasty_flag = druzhina_opening_message_polish
+	}
+}
+
+#PICTISH HOST EVENTS
+character_event = {
+	id = mkmod.13
+	desc = EVTDESCmkmod.13
+	
+	trigger = {
+		has_landed_title = d_pictish_host
+		NOT = { has_dynasty_flag = pictish_opening_message}
+	}
+	
+	option = {
+		name = "EVTOPTAmkmod.13"
+		set_dynasty_flag = pictish_opening_message
+		k_scotland = { add_claim = ROOT }
+	}
+}
+
+character_event = {
+	id = mkmod.14
+	desc = EVTDESCmkmod.14
+	
+	trigger = {
+		has_landed_title = k_scotland
+		has_landed_title = d_pictish_host
+		NOT = { has_dynasty_flag = reclaimed_pictland}
+	}
+	
+	option = {
+		name = "EVTOPTAmkmod.14"
+		set_dynasty_flag = reclaimed_pictland
+		give_nickname = nick_the_reclaimer
+	}
+}
+
+#character_event = {
+#	id = mkmod.15
+#	desc = EVTDESCmkmod.15
+#	
+#	trigger = {
+#		has_landed_title = d_pictish_host
+#		NOT = { culture = pictish }
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	
+#	option = {
+#		name = "EVTOPTAmkmod.15"
+#		prestige = 500
+#		create_random_soldier = {
+#			random_traits = no
+#			dynasty = random
+#			religion = ROOT
+#			culture = pictish
+#			female = no
+#			attributes = {
+#				martial = 20
+#				diplomacy = 8
+#				stewardship = 9
+#				intrigue = 12
+#				learning = 12
+#			}
+#		}
+#		new_character = {
+#			d_pictish_host = {
+#				grant_title = PREV
+#				add_claim = ROOT
+#			}
+#			set_defacto_liege = THIS
+#			ROOT = {
+#				primary_title = {
+#					add_claim = PREVPREV
+#				}
+#			}
+#			spawn_unit = {
+#				owner = THIS
+#				province = THIS
+#				home = THIS
+#				troops = {
+#					archers = { 500 500 }
+#					light_infantry = { 1500 1500 }
+#					pikemen = { 1300 1300 }
+#					light_cavalry = { 200 200 }
+#				}
+#				maintenance_multiplier = 0.5
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "EVTOPTBmkmod.15"
+#		culture = pictish
+#		prestige = -200
+#	}
+#}

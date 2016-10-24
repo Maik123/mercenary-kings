@@ -1,0 +1,9 @@
+mamluk = {
+	monthly_character_prestige = 0.1
+	martial = 1
+	intrigue = 1
+	learning = -2
+	same_opinion = 10
+
+	customizer = no
+}

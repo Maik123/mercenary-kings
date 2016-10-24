@@ -1,0 +1,63 @@
+viking_composition = {
+	levy_size = 4
+	heavy_infantry = 50
+	light_cavalry = 10
+	light_infantry = 250
+	archers = 150
+	galleys = 20
+}
+
+persian_composition = {
+	levy_size = 4
+	light_cavalry = 250
+	knights = 75
+	horse_archers = 100
+}
+
+genoese_composition = {
+	levy_size = 5
+	archers = 200
+	pikemen = 20
+	heavy_infantry = 20
+}
+
+saxon_composition = {
+	levy_size = 3
+	heavy_infantry = 250
+	pikemen = 50
+	light_infantry = 150
+	archers = 150
+}
+
+druzhina_composition = {
+	levy_size = 2
+	knights = 175
+	horse_archers = 175
+}
+
+pictish_composition = {
+	levy_size = 2
+	light_infantry = 250
+	pikemen = 135
+	light_cavalry = 30
+	archers = 155
+}
+
+norman_composition = {
+	levy_size = 3
+	knights = 200
+	heavy_infantry = 300
+}
+
+danelaw_composition = {
+	levy_size = 3
+	heavy_infantry = 150
+	light_infantry = 300
+	archers = 100
+}
+	
+magyar_composition = {
+	levy_size = 3
+	light_cavalry = 200
+	horse_archers = 150
+}

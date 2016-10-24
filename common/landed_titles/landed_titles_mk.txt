@@ -1,0 +1,1786 @@
+#ALL CUSTOM BANDS NEED TWO NEAR IDENTICAL ENTRIES TO BE ABLE TO RAISE THEIR BAND
+#THE ENGINE NEEDS TO BE TRICKED INTO THINKING THEYRE A MERCENARY BAND, WHILE ALSO NOT THINKING
+#THAT THEY ARE A MERCENARY BAND
+
+d_catalan_band = {
+	color={ 230 100 100 }
+	color2={ 255 255 255 }
+
+	capital = 204 # Barcelona
+	
+	mercenary = no
+	
+	# Hire Trigger
+	allow = {
+		religion_group = christian
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = catalan
+
+	title = "CONDOTTIERO"
+	foa = "CONDOTTIERO_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = catalan_band_composition
+}
+
+d_great_company = {
+	color={ 100 100 100 }
+	color2={ 255 255 255 }
+
+	capital = 361 # Niederbayern
+	
+	# Hire Trigger
+	allow = {
+		religion_group = christian
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = great_company_composition
+}
+
+d_irish_band = {
+	color = { 112 255 70 }
+	color2 = { 255 255 255 }
+
+	capital = 10 # Kildare
+	
+	# Hire Trigger
+	allow = {
+		always = yes
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = irish
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = irish_band_composition
+}
+
+d_rose_company = {
+	color={ 230 150 150 }
+	color2={ 255 255 255 }
+
+	capital = 355 # Padua
+	
+	# Hire Trigger
+	allow = {
+		religion_group = christian
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	mercenary = no
+
+	title = "CONDOTTIERO"
+	foa = "CONDOTTIERO_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = rose_company_composition
+}
+
+d_rus_company = {
+	color = { 80 80 160 }
+	color2 = { 255 255 255 }
+
+	capital = 547 # Kiev
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = pagan_group
+			religion_group = christian
+		}
+	}
+	
+	# Parent Religion 
+	religion = orthodox
+	
+	culture = russian
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = rus_company_composition
+}
+
+d_nubian_band = {
+	color = { 155 165 80 }
+	color2 = { 255 255 255 }
+
+	capital = 878 # Hayya
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+		}
+	}
+	
+	# Parent Religion 
+	religion = miaphysite
+	
+	culture = nubian
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = nubian_band_composition
+}
+
+d_scottish_band = {
+	color = { 30 90 182 }
+	color2 = { 255 255 255 }
+
+	capital = 43 # Gowrie
+	
+	# Hire Trigger
+	allow = {
+		religion_group = christian
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = scottish
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = scottish_band_composition
+}
+
+d_shiite_bedouin_company = {
+	color = { 40 150 30 }
+	color2 = { 255 255 255 }
+
+	capital = 862 # Halaban
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = muslim
+			religion_group = zoroastrian_group
+		}
+	}
+	
+	# Parent Religion 
+	religion = shiite
+	culture = bedouin_arabic
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = bedouin_company_composition
+}
+
+d_shiite_turkic_company = {
+	color = { 135 170 60 }
+	color2 = { 255 255 255 }
+
+	capital = 621 # Kangly
+	
+	# Parent Religion 
+	religion = shiite
+	culture = turkish
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = muslim_turkic_company_composition
+}
+
+d_sunni_berber_company = {
+	color = { 85 155 33 }
+	color2 = { 255 255 255 }
+
+	capital = 833 # Atlas
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = muslim
+			religion_group = zoroastrian_group
+		}
+	}
+	
+	# Parent Religion 
+	religion = sunni
+	culture = maghreb_arabic
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = berber_company_composition
+}
+
+d_sunni_bedouin_company = {
+	color = { 45 155 35 }
+	color2 = { 255 255 255 }
+
+	capital = 862 # Halaban
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = muslim
+			religion_group = zoroastrian_group
+		}
+	}
+	
+	# Parent Religion 
+	religion = sunni
+	culture = bedouin_arabic
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = bedouin_company_composition
+}
+
+d_sunni_turkic_company = {
+	color = { 130 173 70 }
+	color2 = { 255 255 255 }
+
+	capital = 621 # Kangly
+	
+	# Parent Religion 
+	religion = sunni
+	culture = turkish
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.00
+	
+	mercenary_type = muslim_turkic_company_composition
+}
+
+d_varangian_guard = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	capital = 290 # Uppland
+	
+	# Parent Religion 
+	religion = orthodox
+	
+	culture = norse
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = varangian_guard_composition
+}
+
+d_victual_brothers = {
+	color={ 160 160 160 }
+	color2={ 255 255 255 }
+	
+	capital = 370 # Marienburg
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			religion = baltic_pagan
+			religion = baltic_pagan_reformed
+			religion = finnish_pagan
+			religion = finnish_pagan_reformed
+			religion_group = christian
+		}
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	mercenary = no
+	mercenary_type = victual_brothers_composition
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 0.25
+}
+
+d_white_company = {
+	color={ 235 235 235 }
+	color2={ 255 255 255 }
+
+	capital = 72 # Essex
+	
+	# Hire Trigger
+	allow = {
+		religion_group = christian
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = white_company_composition
+	
+}
+
+d_mamluks = {
+	color={ 80 160 80 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = bektashigfx
+
+	capital = 796 # Cairo
+	
+	# Hire Trigger
+	allow = {
+		religion_group = muslim
+	}
+	
+	# Parent Religion 
+	religion = shiite
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = mamluks_composition
+}
+
+d_breton_company = {
+	color={ 150 40 40 }
+	color2={ 255 255 255 }
+
+	capital = 102 # Penthievre
+	
+	# Hire Trigger
+	allow = {
+		religion_group = christian
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	culture = breton
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = breton_company_composition
+}
+
+d_alan_band = {
+	color = { 245 210 90 }
+	color2 = { 255 255 255 }
+
+	capital = 603 # Alania
+	
+	# Hire Trigger
+	allow = {
+		always = yes
+	}
+	
+	# Parent Religion 
+	religion = orthodox
+	
+	culture = alan
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = alan_band_composition
+}
+
+d_bulgarian_company = {
+	color = { 100 50 30 }
+	color2 = { 255 255 255 }
+
+	capital = 508 # Dorostotum
+	
+	# Parent Religion 
+	religion = orthodox
+	
+	culture = bulgarian
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = bulgarian_company_composition
+}
+
+d_company_of_st_george = {
+	color={ 50 50 200 }
+	color2={ 255 255 255 }
+
+	capital = 235 # Lombardia
+	
+	# Hire Trigger
+	allow = {
+		religion_group = christian
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	mercenary = no
+
+	title = "CONDOTTIERO"
+	foa = "CONDOTTIERO_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = company_of_st_george_composition
+}
+
+d_cuman_company = {
+	color = { 160 160 80 }
+	color2 = { 255 255 255 }
+
+	capital = 616 # Yaik
+	
+	# Parent Religion 
+	religion = orthodox
+	culture = cuman
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = cuman_company_composition
+}
+
+d_finnish_band = {
+	color = { 131 35 35 }
+	color2 = { 255 255 255 }
+
+	capital = 383 # Häme
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = christian
+			religion_group = pagan_group
+		}
+	}
+	
+	# Parent Religion 
+	religion = finnish_pagan
+	
+	culture = finnish
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = finnish_band_composition
+}
+
+d_ghanan_band = {
+	color = { 108 123 48 }
+	color2 = { 255 255 255 }
+
+	capital = 913 # Ghana
+	
+	# Hire Trigger
+	allow = {
+		culture_group = west_african
+	}
+	
+	# Parent Religion 
+	religion = west_african_pagan
+	
+	culture = manden
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = ghanan_band_composition
+}
+
+d_swiss_company = {
+	color={ 150 40 40 }
+	color2={ 255 255 255 }
+
+	capital = 239 # Geneve
+	
+	# Hire Trigger
+	allow = {
+		religion_group = christian
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = swiss_company_composition
+}
+
+d_fjord_riders = {
+	color={ 73 114 113 }
+	color2={ 116 134 143 }
+
+	capital = 272 # Akershus
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = pagan_group
+			culture = saxon
+			culture_group = celtic
+		}
+	}
+	
+	# Parent Religion 
+	religion = norse_pagan
+	
+	mercenary = yes
+
+	title = "WARLORD"
+	foa = "WARLORD_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = viking_composition
+}
+
+d_fjord_riders = {
+	color={ 73 114 113 }
+	color2={ 116 134 143 }
+
+	capital = 272 # Akershus
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = pagan_group
+			culture = saxon
+			culture_group = celtic
+		}
+	}
+	
+	# Parent Religion 
+	religion = norse_pagan
+	
+	mercenary = no
+
+	title = "WARLORD"
+	foa = "WARLORD_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = viking_composition
+}
+
+d_old_saxon_band = {
+	color={ 158 82 65 }
+	color2={ 193 196 106 }
+
+	capital = 257 #Braunschweig
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = pagan_group
+			culture = old_saxon
+		}
+	}
+	
+	# Parent Religion 
+	religion = norse_pagan
+	
+	mercenary = yes
+
+	title = "WARLORD"
+	foa = "WARLORD_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = saxon_composition
+}
+
+d_old_saxon_band = {
+	color={ 158 82 65 }
+	color2={ 193 196 106 }
+
+	capital = 257 #Braunschweig
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = pagan_group
+			culture = old_saxon
+		}
+	}
+	
+	# Parent Religion 
+	religion = norse_pagan
+	
+	mercenary = no
+
+	title = "WARLORD"
+	foa = "WARLORD_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = saxon_composition
+}
+
+d_zoroastrian_band = {
+	color={ 215 222 140 }
+	color2={ 222 163 140 }
+
+	capital = 634 # Nishapur
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = zoroastrian_group
+			religion_group = pagan_group
+			culture_group = iranian
+			culture = cuman
+			culture = turkish
+		}
+	}
+	
+	# Parent Religion 
+	religion = zoroastrian
+	
+	mercenary = yes
+
+	title = "WARLORD"
+	foa = "WARLORD_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = persian_composition
+}
+
+d_zoroastrian_band = {
+	color={ 215 222 140 }
+	color2={ 222 163 140 }
+
+	capital = 634 # Nishapur
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion_group = zoroastrian_group
+			religion_group = pagan_group
+			culture_group = iranian
+			culture = cuman
+			culture = turkish
+		}
+	}
+	
+	# Parent Religion 
+	religion = zoroastrian
+	
+	mercenary = no
+
+	title = "WARLORD"
+	foa = "WARLORD_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = persian_composition
+}
+
+d_genoese_band = {
+	color={ 237 206 220 }
+	color2={ 247 247 247 }
+
+	capital = 233 # Genoa
+	
+	# Hire Trigger
+	allow = {
+		religion_group = christian
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = genoese_composition
+}
+
+d_genoese_band = {
+	color={ 237 206 220 }
+	color2={ 247 247 247 }
+
+	capital = 233 # Genoa
+	
+	# Hire Trigger
+	allow = {
+		religion_group = christian
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = genoese_composition
+}
+
+d_varangian_guard = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	capital = 497 # Thrake
+	
+	# Parent Religion 
+	religion = orthodox
+	
+	culture = norse
+	
+	mercenary = no
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = varangian_guard_composition
+}
+
+d_druzhina_rus = {
+	color={ 0 63 6 }
+	color2={ 206 182 0 }
+	
+	graphical_culture = easternslavicgfx
+	
+	capital = 547 # Kyiv
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion = orthodox
+			culture_group = east_slavic
+		}
+	}
+	
+	# Parent Religion 
+	religion = orthodox
+	
+	culture = russian
+	
+	mercenary = yes
+
+	title = "GRAND_BOYAR"
+	foa = "GRAND_BOYAR_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = druzhina_composition
+}
+
+d_druzhina_rus = {
+	color={ 0 63 6 }
+	color2={ 206 182 0 }
+	
+	graphical_culture = easternslavicgfx
+	
+	capital = 547 # Kyiv
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion = orthodox
+			culture_group = east_slavic
+		}
+	}
+	
+	# Parent Religion 
+	religion = orthodox
+	
+	culture = russian
+	
+	mercenary = no
+
+	title = "GRAND_BOYAR"
+	foa = "GRAND_BOYAR_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = druzhina_composition
+}
+
+d_druzhina_polish = {
+	color={ 242 116 116 }
+	color2={ 242 80 80 }
+	
+	capital = 529 # Plock
+	# Hire Trigger
+	allow = {
+		culture_group = west_slavic
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = polish
+	
+	mercenary = yes
+
+	title = "MARSHALL"
+	foa = "MARSHALL_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = druzhina_composition
+}
+
+d_druzhina_polish = {
+	color={ 242 116 116 }
+	color2={ 242 80 80 }
+	
+	capital = 529 # Plock
+	# Hire Trigger
+	allow = {
+		culture_group = west_slavic
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = polish
+	
+	mercenary = no
+
+	title = "MARSHALL"
+	foa = "MARSHALL_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = druzhina_composition
+}
+
+d_pictish_host = {
+	color={ 40 166 78 }
+	color2={ 241 255 117 }
+	
+	capital = 39 # Ross
+	
+	# Hire Trigger
+	allow = {
+		culture_group = celtic
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = pictish
+	
+	mercenary = yes
+
+	title = "MARSHALL"
+	foa = "MARSHALL_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = pictish_composition
+}
+
+d_pictish_host = {
+	color={ 40 166 78 }
+	color2={ 241 255 117 }
+	
+	capital = 39 # Ross
+	
+	# Hire Trigger
+	allow = {
+		culture_group = celtic
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = pictish
+	
+	mercenary = no
+
+	title = "MARSHALL"
+	foa = "MARSHALL_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	strength_growth_per_century = 0.10
+	
+	mercenary_type = pictish_composition
+}
+
+d_danelaw_band = {
+	color={ 237 159 194 }
+	color2={ 240 240 240 }
+
+	capital = 57 #York
+	norse = "Danlaw Band"
+	swedish = "Svearlaw Band"
+	norwegian = "Nordlaw Band"
+	saxon = "Anglo-Danish Band"
+	english = "Anglo-Danish Band"
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			culture_group = north_germanic
+			culture_group = west_germanic
+			culture_group = celtic
+			culture = frankish
+			culture = old_frankish
+		}
+	}
+	
+	# Parent Religion 
+	religion = norse_pagan
+	
+	mercenary = yes
+
+	title = "WARLORD"
+	foa = "WARLORD_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = danelaw_composition
+}
+
+d_danelaw_band = {
+	color={ 237 159 194 }
+	color2={ 240 240 240 }
+
+	capital = 57 #York
+	norse = "Danlaw Band"
+	swedish = "Svearlaw Band"
+	norwegian = "Nordlaw Band"
+	saxon = "Anglo-Danish Band"
+	english = "Anglo-Danish Band"
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			culture_group = north_germanic
+			culture_group = west_germanic
+			culture_group = celtic
+			culture = frankish
+			culture = old_frankish
+		}
+	}
+	
+	# Parent Religion 
+	religion = norse_pagan
+	
+	mercenary = no
+
+	title = "WARLORD"
+	foa = "WARLORD_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = danelaw_composition
+}
+
+d_knights_brass_cross = {
+	color={ 152 117 15 }
+	color2={ 230 230 230 }
+	
+	graphical_culture = holygfx
+	
+	capital = 449 #Vienna
+	
+	# Hire Trigger
+	allow = {
+		religion = catholic
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	mercenary = yes
+
+	title = "GRAND_MASTER_MK"
+	foa = "GRAND_MASTER_MK_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = norman_composition
+}
+
+d_knights_brass_cross = {
+	color={ 152 117 15 }
+	color2={ 230 230 230 }
+	
+	graphical_culture = holygfx
+	
+	capital = 449 #Vienna
+	
+	# Hire Trigger
+	allow = {
+		religion = catholic
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	mercenary = no
+
+	title = "GRAND_MASTER_MK"
+	foa = "GRAND_MASTER_MK_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = norman_composition
+}
+
+d_pannonian_band = {
+	color={ 159 227 183 }
+	color2={ 222 221 184 }
+	
+	capital = 522 #Pest
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			culture = greek
+			culture_group = altaic
+			culture_group = central_germanic
+			culture_group = western_slavic
+			culture_group = magyar
+			religion_group = pagan_group
+		}
+	}
+	
+	# Parent Religion 
+	religion = tengri_pagan
+	
+	mercenary = yes
+
+	title = "WARLORD"
+	foa = "WARLORD_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = magyar_composition
+}
+
+d_pannonian_band = {
+	color={ 159 227 183 }
+	color2={ 222 221 184 }
+	
+	capital = 522 #Pest
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			culture = greek
+			culture_group = altaic
+			culture_group = central_germanic
+			culture_group = western_slavic
+			culture_group = magyar
+			religion_group = pagan_group
+		}
+	}
+	
+	# Parent Religion 
+	religion = tengri_pagan
+	
+	mercenary = no
+
+	title = "WARLORD"
+	foa = "WARLORD_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = magyar_composition
+}
+
+d_latinikon = {
+	color={ 252 92 81 }
+	color2={ 90 71 211 }
+	
+	graphical_culture = holygfx
+	
+	capital = 335 #Napoli
+	
+	mercenary = yes
+	
+	# Hire Trigger
+	allow = {
+		religion_group = christian
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = norman
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = norman_composition
+}
+
+d_latinikon = {
+	color={ 252 92 81 }
+	color2={ 90 71 211 }
+	
+	graphical_culture = holygfx
+	
+	capital = 335 #Napoli
+	
+	mercenary = no
+	
+	# Hire Trigger
+	allow = {
+		religion_group = christian
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	
+	culture = norman
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = norman_composition
+}
+
+#Not implemented yet
+d_hephthalites = {
+	color={ 245 245 245 }
+	color2={ 254 203 0 }
+	
+	capital = 1188 #Khuttal
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			culture_group = iranian
+			culture_group = altaic
+			religion_group = pagan_group
+		}
+	}
+	
+	# Parent Religion 
+	religion = zun_pagan
+	
+	mercenary = no
+
+	title = "KHAN_MK"
+	foa = "KHAN_MK_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = magyar_composition
+}
+
+d_navarrese_company = {
+	color={ 150 150 100 }
+	color2={ 255 255 255 }
+	
+	title = "CONDOTTIERO"
+	foa = "CONDOTTIERO_FOA"
+
+	capital = 152 # Navarre
+	
+	mercenary = no
+	
+	# Hire Trigger
+	allow = {
+		religion_group = christian
+	}
+	
+	# Parent Religion 
+	religion = catholic
+	culture = basque
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	dynasty_title_names = no
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = navarrese_company_composition
+}

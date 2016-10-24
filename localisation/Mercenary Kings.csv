@@ -1,0 +1,195 @@
+BM_CHARLEMAGNE_MK;Merc Kings: Early Middle Ages;;;;;;;;;;;;;x
+BM_THE_OLD_GODS_MK;Merc Kings: Viking Age;;;;;;;;;;;;;x
+BM_FATE_OF_ENGLAND_MK;Merc Kings: Stamford Bridge;;;;;;;;;;;;;x
+BM_NORMAN_CONQUEST_MK;Merc Kings: Norman Conquest;;;;;;;;;;;;;x
+BM_KOMNENOS_DYNASTY_MK;Merc Kings: High Middle Ages;;;;;;;;;;;;;x
+
+WARLORD;Warlord;;;;;;;;;;;;;x
+WARLORD_FOA;My Lord;;;;;;;;;;;;;x
+GRAND_BOYAR;Grand Boyar;;;;;;;;;;;;;x
+GRAND_BOYAR_FOA;My Lord;;;;;;;;;;;;;x
+MARSHALL;Marshall;;;;;;;;;;;;;x
+MARSHALL_FOA;My Marshall;;;;;;;;;;;;;x
+GRAND_MASTER_MK;Grand Master;;;;;;;;;;;;;x
+GRAND_MASTER_MK_FOA;My Lord;;;;;;;;;;;;;x
+KHAN_MK;Khan;;;;;;;;;;;;;x
+KHAN_MK_FOA;My Khan;;;;;;;;;;;;;x
+
+d_fjord_riders;Fjord Riders;;;;;;;;;;;;;x
+d_fjord_riders_adj;Fjord Rider;;;;;;;;;;;;;x
+d_zoroastrian_band;Wielders of Fire;;;;;;;;;;;;;x
+d_zoroastrian_band_adj;Persian Mercenary;;;;;;;;;;;;;x
+d_genoese_band;Genoese Arcieri;;;;;;;;;;;;;x
+d_genoese_band_adj;Genoese Mercenary;;;;;;;;;;;;;x
+d_old_saxon_band;Warriors of Seaxneat;;;;;;;;;;;;;x
+d_old_saxon_band_adj;Saxon Mercenary;;;;;;;;;;;;;x
+d_druzhina_rus;Rus' Druzhina;;;;;;;;;;;;;x
+d_druzhina_rus_adj;Rus' Druzhina;;;;;;;;;;;;;x
+d_druzhina_polish;Polish Druzhina;;;;;;;;;;;;;x
+d_druzhina_polish_adj;Polish Druzhina;;;;;;;;;;;;;x
+d_pictish_host;Pictish Host;;;;;;;;;;;;;x
+d_pictish_host_adj;Pictish;;;;;;;;;;;;;x
+d_danelaw_band;Danelaw Band;;;;;;;;;;;;;x
+d_danelaw_band_adj;Anglo-Danish;;;;;;;;;;;;;x
+d_knights_brass_cross;Knights of the Brass Cross;;;;;;;;;;;;;x
+d_knights_brass_cross_adj;Austrian;;;;;;;;;;;;;x
+d_pannonian_band;Pannonian Band;;;;;;;;;;;;;x
+d_pannonian_band_adj;Pannonian;;;;;;;;;;;;;x
+d_latinikon;Latinikon;;;;;;;;;;;;;x
+d_latinikon_adj;Latin;;;;;;;;;;;;;x
+
+change_to_reformed_slavic;Adopt the new faith.;;;;;;;;;;;;;x
+change_to_reformed_slavic_desc;The Slavic faith has undergone great reforms. Perhaps we should adopt these new reforms.;;;;;;;;;;;;;x
+change_to_reformed_norse;Adopt the new faith.;;;;;;;;;;;;;x
+change_to_reformed_norse_desc;The Germanic faith has undergone great reforms. Perhaps we should adopt these new reforms.;;;;;;;;;;;;;x
+change_to_reformed_tengri;Adopt the new faith.;;;;;;;;;;;;;x
+change_to_reformed_tengri_desc;The Tengri faith has undergone great reforms. Perhaps we should adopt these new reforms.;;;;;;;;;;;;;x
+change_to_reformed_finnish;Adopt the new faith.;;;;;;;;;;;;;x
+change_to_reformed_finnish_desc;The Finno-Ugric faith has undergone great reforms. Perhaps we should adopt these new reforms.;;;;;;;;;;;;;x
+change_to_reformed_baltic;Adopt the new faith.;;;;;;;;;;;;;x
+change_to_reformed_baltic_desc;The Baltic faith has undergone great reforms. Perhaps we should adopt these new reforms.;;;;;;;;;;;;;x
+
+adopt_son_merc;Adopt a Son;;;;;;;;;;;;;x
+adopt_son_merc_desc;Being a ruler isn't easy, and neither is the issue of succession. Sometimes to pass our legacy on, we need to look outside of these boundries placed on us such as love or family. You've always wanted a son anyway, right?;;;;;;;;;;;;;x
+
+ask_for_donations;Ask nearby rulers for funding.;;;;;;;;;;;;;x
+ask_for_donations_desc;We should ask our nearby rulers for a helping hand to get this mercenary band of its feet!;;;;;;;;;;;;;x
+asked_for_donation_mk;Begged for business.;;;;;;;;;;;;;x
+EVTDESCmkmod.1;Your majesty, I wish to inquire about the current financial state of your realm and whether or not you wish to invest in our humble mercenary band. Perhaps with your help we could become a great addition to your army!;;;;;;;;;;;;;x
+EVTOPTAmkmod.1;Be gone from here, beggar!;;;;;;;;;;;;;x
+EVTOPTBmkmod.1;I think I have a few coins around here somewhere;;;;;;;;;;;;;x
+EVTOPTCmkmod.1;Let me duel your greatest warrior and I will donate gold a plenty.;;;;;;;;;;;;;x
+EVTDESCmkmod.2;If you think I am going to fund your petty band of thieves, you are gravely mistaken.;;;;;;;;;;;;;x
+EVTOPTAmkmod.2;It was worth a try.;;;;;;;;;;;;;x
+EVTDESCmkmod.3;Here is a small amount of gold, I hope to see your band on my side of the battlefield.;;;;;;;;;;;;;x
+EVTOPTAmkmod.3;A little gold goes a long way.;;;;;;;;;;;;;x
+EVTDESCmkmod.4;Your emissary gave me a run for my money with his blade, please accept this gold and don't hesitate to join my wars!;;;;;;;;;;;;;x
+EVTOPTAmkmod.4;Brilliant!;;;;;;;;;;;;;x
+
+EVTDESCmkmod.6;I would like to hire some...;;;;;;;;;;;;;x
+EVTOPTAmkmod.6;Actually, I change my mind;;;;;;;;;;;;;x
+EVTOPTBmkmod.6;Standard Shock Troops;;;;;;;;;;;;;x
+EVTOPTCmkmod.6;Standard Cavalry Troops;;;;;;;;;;;;;x
+EVTOPTDmkmod.6;Standard Defensive Troops;;;;;;;;;;;;;x
+EVTOPTEmkmod.6;Pikemen Troops;;;;;;;;;;;;;x
+
+EVTDESCmkmod.7;One way or another, fate has brought you to the Mamluks, a brotherhood you will belong to for the rest of your life. The Mamluks, while technically slaves, are not treated as such they are taught how to bear arms, praise God and in some cases are even educated! As a Mamluk, you will immediately enjoy a social class not quite that of a lord, but above the lowborn folk.;;;;;;;;;;;;;x
+EVTOPTAmkmod.7;I can't complain about that!;;;;;;;;;;;;;x
+EVTDESCmkmod.8;Wandering slave traders from far away have come to sell you their prized slaves. One slave trader offers a former warlord from the wild lands of Tartaria, another offers a renowned scholar taken from the halls of Constantinople and the final slave trader offers a beautiful young woman taken from the East.;;;;;;;;;;;;;x
+EVTOPTAmkmod.8;That barbarian looks like a strong addition to the army.;;;;;;;;;;;;;x
+EVTOPTBmkmod.8;The scholar could come in handy.;;;;;;;;;;;;;x
+EVTOPTCmkmod.8;I like the look of the young woman.;;;;;;;;;;;;;x
+EVTOPTDmkmod.8;I don't need either, bring me someone useful next time.;;;;;;;;;;;;;x
+
+EVTDESCmkmod.9;You find yourself as part of the Russian Druzhina, a warrior caste and important part of the Rus' Empire. The Druzhina were created as a personal bodyguard to the Monarch of Rus', however when power within Rus' is debated, or they feel ambitious, the Druzhina serve their own needs.;;;;;;;;;;;;;x
+EVTOPTAmkmod.9;Let us hope that I use my influence wisely.;;;;;;;;;;;;;x
+EVTDESCmkmod.10;One way or another, a Russian Prince has risen up and taken on the ambition of reforming the Rus' Empire! A lot of progress has been made and they are being called the Grand Prince of Russia. Perhaps it is time we show that we stand by our vows and will protect the ruler of Rus'.;;;;;;;;;;;;;x
+EVTOPTAmkmod.10;The Empire has returned and we are it's warriors!;;;;;;;;;;;;;x
+EVTOPTBmkmod.10;No, we have too much to lose, this petty lord doesn't deserve our time.;;;;;;;;;;;;;x
+EVTDESCmkmod.11;Once created to defend the Rus' Emperor, the Druzhina are a military social caste like no other. Treated like lords and as rich as merchants, the Druzhina exist outside of normal rulership, an entity unto themselves within the Empire. Though, times are dark in Rus'. There is no clear king of Russia and the only thing that holds russians together is their faith.;;;;;;;;;;;;;x
+EVTOPTAmkmod.11;But these are great times for us!;;;;;;;;;;;;;x
+
+EVTDESCmkmod.12;Hired as the Polish King's most trusted household guard, the Polish Druzhina exist to keep the Polish Crown safe as well as to gain some wealth and glory on the side. They are the most renowned warriors in Poland, boasting the greatest gear and a fanaticism in battle, as to be expected from one who fights as a profession.;;;;;;;;;;;;;x
+EVTOPTAmkmod.12;Long live the King!;;;;;;;;;;;;;x
+
+EVTDESCmkmod.13;The people of Alban have deviated from the paths of their ancestors! The Brythonic language has been bastardized, perverted and nearly destroyed by the Gaels and their insular tongue. A host of poorly equipped, but determnined fighting men has emerged, in order to return the language of Alba back to that of its recently abandoned heritage.;;;;;;;;;;;;;x
+EVTOPTAmkmod.13;Begone with these false 'Scots'!;;;;;;;;;;;;;x
+EVTDESCmkmod.14;The ancestral lands of the Picts have been conquered! Morale is at an all time high, the men of the Pictish Host cheer and drink to their new king. They have sworn to act as the household guard of the reclaimer against all aggressors, foreign or domestic.;;;;;;;;;;;;;x
+EVTOPTAmkmod.14;You have served me well, let us rejoice!;;;;;;;;;;;;;x
+EVTDESCmkmod.15;The Pictish Host was created with the intention of creating a strong Pictish peoples and have decided that you are not a worthy liege for them. As such, they now accept another as their Marshall and have completely rejected your rule. Furthermore, this upstart warlord also states that you are not worthy to hold your entire country!;;;;;;;;;;;;;x
+EVTOPTAmkmod.15;Good Riddance. I don't need those filthy Picts.;;;;;;;;;;;;;x
+EVTOPTBmkmod.15;I can't risk to lose them, or my country! I must adhere to their customs.;;;;;;;;;;;;;x
+
+EVTDESCmkmod.16;Our brothers from across the sea have been developed slightly differing accents and customs. The deviate from the ancient ways and some in our court encourage you to accept these new customs.;;;;;;;;;;;;;x
+EVTOPTAmkmod.16;I wish to speak the language of our brothers in Norge.;;;;;;;;;;;;;x
+EVTOPTBmkmod.16;Our Heritage lies with the Danes, we should adopt their customs.;;;;;;;;;;;;;x
+EVTOPTCmkmod.16;We must retain our ancient customs over all else.;;;;;;;;;;;;;x
+EVTDESCmkmod.17;Christian missionaries continually preach from their churches, chapels as well as in the streets. They don't cease to impose their religion on our people even when persuaded with force. Their religion offers many things that ours doesn't, but we have followed our traditions for thousands of years.;;;;;;;;;;;;;x
+EVTOPTAmkmod.17;I have found solitude in the Christ God.;;;;;;;;;;;;;x
+EVTOPTBmkmod.17;Execute the preachers, Odin, Thor and Frey are the only way.;;;;;;;;;;;;;x
+
+EVTDESCmkmod.18;Due to the constant warfare and political instability in England, a large boat of Anglo Saxon refugees has landed within the Empire. One man has approached you to fulfill his wish to continue his tradition as a Housecarl in the Varangian Guard;;;;;;;;;;;;;x
+EVTOPTAmkmod.18;A good sign!;;;;;;;;;;;;;
+
+EVTDESCmkmod.19;Our previous leader has passed away, long have you waited for this day.;;;;;;;;;;;;;x
+EVTOPTAmkmod.19;My reign has begun!;;;;;;;;;;;;;
+
+build_castle;Build a Holding;;;;;;;;;;;;;x
+build_castle_desc;Landing our mercenary band will drastically reduce our upkeep, and even provide us with some income;;;;;;;;;;;;;x
+expand_realm_castle;Build another Holding;;;;;;;;;;;;;x
+expand_realm_castle_desc;Expanding our realm into other lords land extends our soft influence over them and strengthens our realm.;;;;;;;;;;;;;x
+
+change_warband_religion;Convert Warband Religion;;;;;;;;;;;;;x
+change_warband_religion_desc;If we convert to the religion of the locals, we may have greater business prospects than with our current religion.;;;;;;;;;;;;;x
+
+raise_soldiers;Hire Professional Soldiers;;;;;;;;;;;;;x
+raise_soldiers_desc;A larger army is always a good thing! These soldiers will cost less than your warband in the long term, however they do not replenish like your warband or a retinue.;;;;;;;;;;;;;x
+purchase_fleet;Commission a galley;;;;;;;;;;;;;x
+purchase_fleet_desc;We may commission tradesmen to build us a galley, for a price, of course. A good navy improves our "political" reach. These boats do not disband during peacetime.;;;;;;;;;;;;;x
+raise_peasants;Hire Soldiers of Fortune;;;;;;;;;;;;;x
+raise_peasants_desc;The poor folk of the land are always drawn to the potential wealth, glory and honour that we can provide them. Whether slave or peasant, they are willing to pursue the life of a hired sword, we just have to make sure we're important enough for them to volunteer!;;;;;;;;;;;;;x
+hire_varangians;Hire Varangians;;;;;;;;;;;;;x
+hire_varangians_desc;Varangians are a special type of norseman. Usually rich traders and vikings, they are known to the eastern romans as superb warriors and potentially very dangerous enemies. We could invite a Varangian leader and his warband over, but they'll expect to be paid.;;;;;;;;;;;;;x
+hire_thegns;Hire Thegns;;;;;;;;;;;;;x
+hire_thegns_desc;A Thegn is a non-citizen slave to a scandinavian master. We could purchase some thegns and press them into armed service. This way they can, at least, raid and plunder just like if they were free citizens... almost.;;;;;;;;;;;;;x
+hire_horse_archers;Recruit Steppe Soldiers;;;;;;;;;;;;;x
+hire_horse_archers_desc;Coming from a warrior culture, the nomads of the steppe are masters of the horse and bow. Always eager for wealth, these soldiers will join our band for the right price.;;;;;;;;;;;;;x
+press_slaves;Press Slaves into service;;;;;;;;;;;;;x
+press_slaves_desc;Many of the poorer Mamluks are completely subservient to their richer counterparts. As opposed to being more of a warrior than a servant, these sorry individuals are more of a servant than a warrior. We may use our influence to put a spear in their hands and press them into service.;;;;;;;;;;;;;x
+raise_caucasians;Raise Caucasian Mamluks;;;;;;;;;;;;;x
+raise_caucasians_desc;A lot of Mamluks trace their heritage to slaves taken from the Caucasus. Many of these Caucasians gain wealth, influence and prestige in their new social standing as a Mamluk. Motivated by little more than money, influence and glory, these slave-warriors make up the indispensable core of the Mamluk army.;;;;;;;;;;;;;x
+hire_norsemen;Hire Norse Mercenaries;;;;;;;;;;;;;x
+hire_norsemen_desc;Hailing from the cold north, Scandinavian hardiness and martial prowess is the reason for the creation of the Varangian Guard. For a price, we could invite some Scandinavian warlords to bring their fleet, and their army, to continue the tradition.;;;;;;;;;;;;;x
+hire_rus_varangians;Hire Rus' Varangians;;;;;;;;;;;;;x
+hire_rus_varangians_desc;Although they now speak a language that sounds more like their slavic peasantry, the Rus' maintain the martial tradition of their viking forebears. It was less than a century ago that the entire Varangian Guard was composed of Rus' vikings. Let us invite some Rus' warlords and their retinue to recognise their age old calling.;;;;;;;;;;;;;x
+purchase_slavic_thegns;Purchase Slavic Thegns;;;;;;;;;;;;;x
+purchase_slavic_thegns_desc;Sometimes when times are desperate, decisions have to be drastic. We could purchase some slavic slaves from the Balkans to fill in the ranks.;;;;;;;;;;;;;x
+hire_anglo_saxons;Hire Anglo-Saxon Mercenaries;;;;;;;;;;;;;x
+hire_anglo_saxons_desc;Fleeing political isolation, and the potential death of their identity in the British Isles, a large group of Anglo-Saxons set up a community in the Byzantine Empire. Unwilling to abandon their warrior-culture, we could recruit some Housecarls from this community.;;;;;;;;;;;;;x
+raise_swiss_pikemen;Raise Swiss Pikemen;;;;;;;;;;;;;x
+raise_swiss_pikemen_desc;The Swiss Alps provide great terrain for a defensive advantage, an advantage which is truly capitalised on with the mastery of the pike. Raise the famous Swiss Pikemen to bring ruin to your enemies and gold to your pockets!;;;;;;;;;;;;;x
+hire_italian_soldiers;Hire Italian Soldiers;;;;;;;;;;;;;x
+hire_italian_soldiers_desc;Straying from the Cavalry and Swordsman that the Germans and Franks enjoy, Italian soldiers mainly rely on their pikes and ranged weapons. Let us hire more soldiers and teach those foreigners how to fight!;;;;;;;;;;;;;x
+hire_genoese_archers;Hire Genoese Archers;;;;;;;;;;;;;x
+hire_genoese_archers_desc;Pikes, Swords, Bows, Axes... These other mercenary bands don't know how to specialise. These upstanding, drilled and disciplined crossbowmen and supporting men offer unrivalled accuracy, armour puncturing and volley size to anyone willing to pay the right price.;;;;;;;;;;;;;x
+
+
+african_slaves_mamluk;Purchase African Slaves;;;;;;;;;;;;;x
+african_slaves_mamluk_desc;We can purchase some cheap slaves from africa to help with administration or other odd jobs, besides they're better off as Mamluks than whatever they were doing as slaves.;;;;;;;;;;;;;x
+turkic_slaves_mamluk;Purchase Turkic Slaves;;;;;;;;;;;;;x
+turkic_slaves_mamluk_desc;We can purchase some hardened, but barbaric, slaves from Tartaria. Typically, they are more expensive than the widespread african slaves available to us, but generally the turkics are accustomed to the profession of warfare making them excellent commanders.;;;;;;;;;;;;;x
+
+curr_employed_liege;Employed by Liege;;;;;;;;;;;;;x
+curr_employed_liege_unlanded;Employed by Liege;;;;;;;;;;;;;x
+
+in_command_mk_1;Mercenary Leader;;;;;;;;;;;;;x
+in_command_mk_2;Mercenary Captain;;;;;;;;;;;;;x
+in_command_mk_3;Mercenary Lord;;;;;;;;;;;;;x
+in_command_mk_4;Mercenary Warlord;;;;;;;;;;;;;x
+in_command_mk_5;Mercenary Prince;;;;;;;;;;;;;x
+in_command_mk_6;Mercenary Grand Prince;;;;;;;;;;;;;x
+in_command_mk_7;Mercenary Petty King;;;;;;;;;;;;;x
+in_command_mk_8;Mercenary King;;;;;;;;;;;;;x
+in_command_mk_9;Mercenary High King;;;;;;;;;;;;;x
+in_command_mk_10;Emperor;;;;;;;;;;;;;x
+
+war_is_profitable_mk_1;Income From Employment I;;;;;;;;;;;;;x
+war_is_profitable_mk_2;Income From Employment II;;;;;;;;;;;;;x
+war_is_profitable_mk_3;Income From Employment III;;;;;;;;;;;;;x
+war_is_profitable_mk_4;Income From Employment IV;;;;;;;;;;;;;x
+war_is_profitable_mk_5;Income From Employment V;;;;;;;;;;;;;x
+war_is_profitable_mk_6;Income From Employment VI;;;;;;;;;;;;;x
+war_is_profitable_mk_7;Income From Employment VII;;;;;;;;;;;;;x
+soldiers_unpaid_mk;Mercenary Soldiers Unpaid;;;;;;;;;;;;;x
+
+mamluk;Mamluk;;;;;;;;;;;;;x
+mamluk_desc;This character belongs to the unique semi-noble fighting slave-class the Mamluks. While purchased as slaves, the Mamluk military caste enjoys more privileges than the average citizen.;;;;;;;;;;;;;x
+
+title_mercenary_general;General;;;;;;;;;;;;;x
+title_mercenary_general_desc;A most trusted member of the warband, a General demands great respect from, and authority over his companions.;;;;;;;;;;;;;x
+title_boyar_druzhina;Boyar;;;;;;;;;;;;;x
+title_boyar_druzhina_desc;A Boyar is highly ranked within the Druzhina, performing a role similar to that of a count of baron, but administers part of the Druzhina rather than a holding.;;;;;;;;;;;;;x
+
+nick_the_reclaimer;The Reclaimer;;;;;;;;;;;;;x
+nick_the_loyal;The Loyal;;;;;;;;;;;;;x
+nick_the_heroic;The Heroic;;;;;;;;;;;;;x

@@ -1,0 +1,18 @@
+##################
+# TRIGGERED ONLY #
+##################
+
+nick_the_reclaimer = {}
+nick_the_loyal = {}
+
+#######################
+# GIVEN ON CONDITIONS #
+#######################
+nick_the_heroic = {
+	allow = {
+		prestige = 7000
+	}
+	chance = {
+		factor = 5
+	}
+}

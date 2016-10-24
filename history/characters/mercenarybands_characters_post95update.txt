@@ -1,0 +1,111 @@
+#Danelaw Band
+500088={
+	name="Annkarl"
+	religion=norse_pagan
+	culture=norse
+	dynasty=8000088
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+
+#Knights Brass Cross
+500087={
+	name="Otto"
+	religion=catholic
+	culture=german
+	dynasty=8000033
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500187={
+	name="Otto"
+	religion=catholic
+	culture=german
+	dynasty=8000033
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500287={
+	name="Otto"
+	religion=catholic
+	culture=german
+	dynasty=8000033
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Pannonian Band
+500086={
+	name="Kormesiy"
+	religion=tengri_pagan
+	culture=avar
+	dynasty=8000034
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500186={
+	name="Istvan"
+	religion=tengri_pagan
+	culture=hungarian
+	dynasty=8000034
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500286={
+	name="Istvan"
+	religion=catholic
+	culture=hungarian
+	dynasty=8000034
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Latinikon
+500085={
+	name="Edward"
+	religion=catholic
+	culture=norman
+	dynasty=8000035
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}

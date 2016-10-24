@@ -1,0 +1,197 @@
+bookmark =
+{
+	name = "BM_CHARLEMAGNE_MK"
+	desc = "BM_BM_CHARLEMAGNE_DESC"
+	date = 769.1.2
+	
+	character = 500099 #Fjord Riders - Norse
+	character = 500026 #Swiss Company - Swiss
+	character = 500052 #Mamluks - Egyptian Shiite
+	character = 500095 #Wielders of Fire - Persian Zoroastrian
+	character = 500093 #Saxon Company - Pagans
+	character = 500096 #Nubian Band - Nubian Christians
+	
+	character = 500097 #Alan Riders - Alan Tengri
+	character = 500013 #Arab Company - Bedouin Sunni
+	character = 500017 #Bedouin Company - Bedouin Shiite
+	character = 500012 #Berber Company - Berber Sunni
+	character = 500027 #Breton Company - Breton
+	character = 500032 #Bulgarian Company - Bulgarian
+	character = 500020 #St. George - Lombard
+	character = 500023 #Company of the Rose - Italian
+	character = 500029 #Cuman Company - Cuman	
+	character = 500041 #Finnish Band - Finnish
+	character = 500094 #Genoese Archers - Italian Catholic
+	character = 500098 #Ghanan Band - West African Pagans
+	character = 500019 #Great Company - German
+	character = 500047 #Irish Band - Irish
+	character = 500087 #Knights of the Brass Cross - Austrian
+	character = 500086 #Pannonian Band
+	character = 500010 #Turkmen Company - Turkish Sunni
+	character = 500014 #Turkoman Company - Turkish Shia
+	character = 500028 #Victual Brothers - Prussian
+	character = 500018 #White Company - English
+	character = 500310 #Navarrese Company - Basque
+}
+
+bookmark =
+{
+	name = "BM_THE_OLD_GODS_MK"
+	desc = "BM_THE_OLD_GODS_DESC"
+	date = 867.1.1
+	
+	character = 500129 #Cuman Company - Cuman
+	character = 500199 #Fjord Riders - Norse
+	character = 500141 #Finnish Band - Finnish
+	character = 500117 #Bedouin Company - Bedouin Shiite
+	character = 500128 #Victual Brothers - Prussian
+	character = 500088 #Danelaw Band
+	
+	character = 500197 #Alan Riders - Alan Orthodox
+	character = 500113 #Arab Company - Bedouin Sunni
+	character = 500112 #Berber Company - Berber Sunni
+	character = 500127 #Breton Company - Breton
+	character = 500132 #Bulgarian Company - Bulgarian
+	character = 500120 #St. George - Lombard
+	character = 500123 #Company of the Rose - Italian
+	character = 500194 #Genoese Archers - Italian Catholic
+	character = 500198 #Ghanan Band - West African Pagans
+	character = 500119 #Great Company - German
+	character = 500147 #Irish Band - Irish
+	character = 500187 #Knights of the Brass Cross - Austrian
+	character = 500152 #Mamluks - Egyptian Shiite
+	character = 500196 #Nubian Band - Nubian Christians
+	character = 500186 #Pannonian Band
+	character = 500126 #Swiss Company - Swiss
+	character = 500110 #Turkmen Company - Turkish Sunni
+	character = 500114 #Turkoman Company - Turkish Shia	
+	character = 500193 #Warriors of Seaxneat - Old Saxon Pagans
+	character = 500118 #White Company - English
+	character = 500195 #Wielders of Fire - Persian Zoroastrian
+}
+
+bookmark =
+{
+	name = "BM_FATE_OF_ENGLAND_MK"
+	desc = "BM_FATE_OF_ENGLAND_DESC"
+	date = 1066.9.15
+	
+	character = 500218 #White Company - English
+	character = 500092 #Varangian Guard - Byzantine vassal
+	character = 500226 #Swiss Company - Swiss
+	character = 500252 #Mamluks - Egyptian Shiite
+	character = 500089 #Pictish Host - Pictish Catholic
+	character = 500091 #Rus Druzhina- Russian
+	
+	character = 500297 #Alan Riders - Alan Orthodox
+	character = 500213 #Arab Company - Bedouin Sunni
+	character = 500217 #Bedouin Company - Bedouin Shiite
+	character = 500212 #Berber Company - Berber Sunni
+	character = 500227 #Breton Company - Breton
+	character = 500232 #Bulgarian Company - Bulgarian
+	character = 500224 #Catalan Company - Spanish
+	character = 500229 #Cuman Company - Cuman
+	character = 500220 #St. George - Lombard
+	character = 500223 #Company of the Rose - Italian
+	character = 500299 #Fjord Riders - Norwegian
+	character = 500241 #Finnish Band - Finnish
+	character = 500294 #Genoese Archers - Italian Catholic
+	character = 500298 #Ghanan Band - West African Sunni
+	character = 500219 #Great Company - German
+	character = 500247 #Irish Band - Irish
+	character = 500287 #Knights of the Brass Cross - Austrian
+	character = 500085 #Latinikon - Norman
+	character = 500296 #Nubian Band - Nubian Christians
+	character = 500286 #Pannonian Band
+	character = 500090 #Polish Druzhina - Polish
+	character = 500230 #Rus Company - Russian Orthodox
+	character = 500246 #Scottish Band - Scottish
+	character = 500210 #Turkmen Company - Turkish Sunni
+	character = 500214 #Turkoman Company - Turkish Shia	
+	character = 500228 #Victual Brothers - Prussian
+	character = 500295 #Wielders of Fire - Persian Zoroastrian
+}
+
+bookmark =
+{
+	name = "BM_NORMAN_CONQUEST_MK"
+	desc = "BM_NORMAN_CONQUEST_DESC"
+	date = 1066.12.26
+	
+	character = 500227 #Breton Company - Breton
+	character = 500218 #White Company - English
+	character = 500247 #Irish Band - Irish
+	character = 500228 #Victual Brothers - Prussian
+	character = 500298 #Ghanan Band - West African Sunni
+	character = 500246 #Scottish Band - Scottish
+	
+	character = 500297 #Alan Riders - Alan Orthodox
+	character = 500213 #Arab Company - Bedouin Sunni
+	character = 500217 #Bedouin Company - Bedouin Shiite
+	character = 500212 #Berber Company - Berber Sunni
+	character = 500232 #Bulgarian Company - Bulgarian
+	character = 500224 #Catalan Company - Spanish
+	character = 500229 #Cuman Company - Cuman
+	character = 500220 #St. George - Lombard
+	character = 500223 #Company of the Rose - Italian
+	character = 500299 #Fjord Riders - Norwegian
+	character = 500241 #Finnish Band - Finnish
+	character = 500294 #Genoese Archers - Italian Catholic
+	character = 500219 #Great Company - German
+	character = 500287 #Knights of the Brass Cross - Austrian
+	character = 500085 #Latinikon - Norman
+	character = 500252 #Mamluks - Egyptian Shiite
+	character = 500296 #Nubian Band - Nubian Christians
+	character = 500286 #Pannonian Band
+	character = 500089 #Pictish Host - Pictish Catholic
+	character = 500090 #Polish Druzhina - Polish
+	character = 500230 #Rus Company - Russian Orthodox
+	character = 500091 #Rus Druzhina- Russian
+	character = 500226 #Swiss Company - Swiss
+	character = 500210 #Turkmen Company - Turkish Sunni
+	character = 500214 #Turkoman Company - Turkish Shia
+	character = 500092 #Varangian Guard - Byzantine vassal	
+	character = 500295 #Wielders of Fire - Persian Zoroastrian
+}
+
+bookmark =
+{
+	name = "BM_KOMNENOS_DYNASTY_MK"
+	desc = "BM_KOMNENOS_DYNASTY_DESC"
+	date = 1081.4.1
+	
+	character = 500232 #Bulgarian Company - Bulgarian
+	character = 500297 #Alan Riders - Alan Orthodox
+	character = 500092 #Varangian Guard - Byzantine vassal
+	character = 500219 #Great Company - German
+	character = 500213 #Arab Company - Bedouin Sunni
+	character = 500210 #Turkmen Company - Turkish Sunni
+	
+	character = 500217 #Bedouin Company - Bedouin Shiite
+	character = 500212 #Berber Company - Berber Sunni
+	character = 500227 #Breton Company - Breton
+	character = 500224 #Catalan Company - Spanish
+	character = 500229 #Cuman Company - Cuman
+	character = 500220 #St. George - Lombard
+	character = 500223 #Company of the Rose - Italian
+	character = 500299 #Fjord Riders - Norwegian
+	character = 500241 #Finnish Band - Finnish
+	character = 500294 #Genoese Archers - Italian Catholic
+	character = 500298 #Ghanan Band - West African Sunni
+	character = 500247 #Irish Band - Irish
+	character = 500287 #Knights of the Brass Cross - Austrian
+	character = 500085 #Latinikon - Norman
+	character = 500252 #Mamluks - Egyptian Shiite
+	character = 500296 #Nubian Band - Nubian Christians
+	character = 500286 #Pannonian Band
+	character = 500089 #Pictish Host - Pictish Catholic
+	character = 500090 #Polish Druzhina - Polish
+	character = 500230 #Rus Company - Russian Orthodox
+	character = 500091 #Rus Druzhina- Russian
+	character = 500246 #Scottish Band - Scottish
+	character = 500226 #Swiss Company - Swiss
+	character = 500214 #Turkoman Company - Turkish Shia	
+	character = 500228 #Victual Brothers - Prussian
+	character = 500218 #White Company - English
+	character = 500295 #Wielders of Fire - Persian Zoroastrian
+}

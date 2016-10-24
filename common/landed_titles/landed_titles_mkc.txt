@@ -1,0 +1,108 @@
+c_swiss_company = {
+	landless = yes
+}
+c_alan_band = {
+	landless = yes
+}
+c_breton_company = {
+	landless = yes
+}
+c_bulgarian_company = {
+	landless = yes
+}
+c_catalan_company = {
+	landless = yes
+}
+c_company_of_st_george = {
+	landless = yes
+}
+c_cuman_company = {
+	landless = yes
+}
+c_danelaw_band = {
+	landless = yes
+}
+c_druzhina_polish = {
+	landless = yes
+}
+c_druzhina_rus = {
+	landless = yes
+}
+c_finnish_band = {
+	landless = yes
+}
+c_fjord_riders = {
+	landless = yes
+}
+c_genoese_band = {
+	landless = yes
+}
+c_ghanan_band = {
+	landless = yes
+}
+c_great_company = {
+	landless = yes
+}
+c_irish_band = {
+	landless = yes
+}
+c_knights_brass_cross = {
+	landless = yes
+}
+c_mamluks = {
+	landless = yes
+}
+c_nubian_band = {
+	landless = yes
+}
+c_old_saxon_band = {
+	landless = yes
+}
+c_pannonian_band = {
+	landless = yes
+}
+c_pictish_host = {
+	landless = yes
+}
+c_rose_company = {
+	landless = yes
+}
+c_rus_company = {
+	landless = yes
+}
+c_scottish_band = {
+	landless = yes
+}
+c_shiite_bedouin_company = {
+	landless = yes
+}
+c_shiite_turkic_company = {
+	landless = yes
+}
+c_sunni_bedouin_company = {
+	landless = yes
+}
+c_sunni_berber_company = {
+	landless = yes
+}
+c_sunni_turkic_company = {
+	landless = yes
+}
+c_varangian_guard = {
+	landless = yes
+}
+c_victual_brothers = {
+	landless = yes
+}
+c_white_company = {
+	landless = yes
+}
+c_zoroastrian_band = {
+	landless = yes
+}
+c_latinikon = {
+	landless = yes
+}
+c_navarrese_company = {
+	landless = yes
+}

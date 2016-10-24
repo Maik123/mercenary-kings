@@ -1,0 +1,1167 @@
+#White Company
+500018={
+	name="Wulfhelm"
+	religion=catholic
+	culture=saxon
+	dynasty=8000025
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500118={
+	name="Wulfhelm"
+	religion=catholic
+	culture=saxon
+	dynasty=8000025
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500218={
+	name="Wulfhelm"
+	religion=catholic
+	culture=saxon
+	dynasty=8000025
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Great Company
+500019={
+	name="Reinhard"
+	religion=catholic
+	culture=german
+	dynasty=8000010
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500119={
+	name="Reinhard"
+	religion=catholic
+	culture=german
+	dynasty=8000010
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500219={
+	name="Reinhard"
+	religion=catholic
+	culture=german
+	dynasty=8000010
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Company of St. George
+500020={
+	name="Maginulf"
+	religion=catholic
+	culture=lombard
+	dynasty=8000004
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500120={
+	name="Maginulf"
+	religion=catholic
+	culture=lombard
+	dynasty=8000004
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500220={
+	name="Maginulf"
+	religion=catholic
+	culture=lombard
+	dynasty=8000004
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Company of the Rose
+500023={
+	name="Alvise"
+	religion=catholic
+	culture=italian
+	dynasty=8000015
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500123={
+	name="Alvise"
+	religion=catholic
+	culture=italian
+	dynasty=8000015
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500223={
+	name="Alvise"
+	religion=catholic
+	culture=italian
+	dynasty=8000015
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Catalan Company
+500024={
+	name="Ramon-Folc"
+	religion=catholic
+	culture=catalan
+	dynasty=8000027
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500124={
+	name="Ramon-Folc"
+	religion=catholic
+	culture=catalan
+	dynasty=8000027
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500224={
+	name="Ramon-Folc"
+	religion=catholic
+	culture=catalan
+	dynasty=8000027
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Swiss Company
+500026={
+	name="Otbert"
+	religion=catholic
+	culture=old_frankish
+	dynasty=8000023
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500126={
+	name="Otbert"
+	religion=catholic
+	culture=frankish
+	dynasty=8000023
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500226={
+	name="Otbert"
+	religion=catholic
+	culture=frankish
+	dynasty=8000023
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Breton Company
+500027={
+	name="Richwin"
+	religion=catholic
+	culture=breton
+	dynasty=8000002
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500127={
+	name="Richwin"
+	religion=catholic
+	culture=breton
+	dynasty=8000002
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500227={
+	name="Richwin"
+	religion=catholic
+	culture=breton
+	dynasty=8000002
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+#Victual Brothers
+500028={
+	name="Gauronas"
+	religion=baltic_pagan
+	culture=prussian
+	dynasty=8000024
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500128={
+	name="Gauronas"
+	religion=baltic_pagan
+	culture=prussian
+	dynasty=8000024
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500228={
+	name="Gauronas"
+	religion=baltic_pagan
+	culture=prussian
+	dynasty=8000024
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Scottish Band
+500046={
+	name="Lachlan"
+	religion=catholic
+	culture=pictish
+	dynasty=8000017
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500146={
+	name="Lachlan"
+	religion=catholic
+	culture=scottish
+	dynasty=8000017
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500246={
+	name="Lachlan"
+	religion=catholic
+	culture=scottish
+	dynasty=8000017
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Irish Band
+500047={
+	name="Cuindles"
+	religion=catholic
+	culture=irish
+	dynasty=8000011
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500147={
+	name="Cuindles"
+	religion=catholic
+	culture=irish
+	dynasty=8000011
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500247={
+	name="Cuindles"
+	religion=catholic
+	culture=irish
+	dynasty=8000011
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Bulgarian Band
+500032={
+	name="Momchil"
+	religion=orthodox
+	culture=bulgarian
+	dynasty=8000003
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500132={
+	name="Momchil"
+	religion=orthodox
+	culture=bulgarian
+	dynasty=8000003
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500232={
+	name="Momchil"
+	religion=orthodox
+	culture=bulgarian
+	dynasty=8000003
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Rus band
+500030={
+	name="Yevstafiy"
+	religion=slavic_pagan
+	culture=volhynian
+	dynasty=8000016
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500130={
+	name="Yevstafiy"
+	religion=slavic_pagan
+	culture=russian
+	dynasty=8000016
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500230={
+	name="Yevstafiy"
+	religion=orthodox
+	culture=russian
+	dynasty=8000016
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Finnish Band
+500041={
+	name="Ahvo"
+	religion=finnish_pagan
+	culture=finnish
+	dynasty=8000006
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500141={
+	name="Ahvo"
+	religion=finnish_pagan
+	culture=finnish
+	dynasty=8000006
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500241={
+	name="Ahvo"
+	religion=finnish_pagan
+	culture=finnish
+	dynasty=8000006
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Turkic Sunni
+500010={
+	name="Belek"
+	religion=sunni
+	culture=turkish
+	dynasty=8000022
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500110={
+	name="Belek"
+	religion=sunni
+	culture=turkish
+	dynasty=8000022
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500210={
+	name="Belek"
+	religion=sunni
+	culture=turkish
+	dynasty=8000022
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Turkic Shiite
+500014={
+	name="Kutalmis"
+	religion=shiite
+	culture=turkish
+	dynasty=8000019
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500114={
+	name="Kutalmis"
+	religion=shiite
+	culture=turkish
+	dynasty=8000019
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500214={
+	name="Kutalmis"
+	religion=shiite
+	culture=turkish
+	dynasty=8000019
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Cuman Band
+500029={
+	name="Bönek"
+	religion=tengri_pagan
+	culture=cuman
+	dynasty=8000005
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500129={
+	name="Bönek"
+	religion=tengri_pagan
+	culture=cuman
+	dynasty=8000005
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500229={
+	name="Bönek"
+	religion=tengri_pagan
+	culture=cuman
+	dynasty=8000005
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Sunni Bedouin
+500013={
+	name="Yahya"
+	religion=sunni
+	culture=bedouin_arabic
+	dynasty=8000020
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500113={
+	name="Yahya"
+	religion=sunni
+	culture=bedouin_arabic
+	dynasty=8000020
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500213={
+	name="Yahya"
+	religion=sunni
+	culture=bedouin_arabic
+	dynasty=8000020
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Shiite Bedouin
+500017={
+	name="Najib"
+	religion=shiite
+	culture=bedouin_arabic
+	dynasty=8000018
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500117={
+	name="Najib"
+	religion=shiite
+	culture=bedouin_arabic
+	dynasty=8000018
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500217={
+	name="Najib"
+	religion=shiite
+	culture=bedouin_arabic
+	dynasty=8000018
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Mamluks
+500052={
+	name="Hanri"
+	religion=shiite
+	culture=egyptian_arabic
+	dynasty=8000012
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500152={
+	name="Hanri"
+	religion=shiite
+	culture=egyptian_arabic
+	dynasty=8000012
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500252={
+	name="Hanri"
+	religion=shiite
+	culture=egyptian_arabic
+	dynasty=8000012
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Berber Band
+500012={
+	name="Uregh"
+	religion=sunni
+	culture=maghreb_arabic
+	dynasty=8000021
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500112={
+	name="Uregh"
+	religion=sunni
+	culture=maghreb_arabic
+	dynasty=8000021
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500212={
+	name="Uregh"
+	religion=sunni
+	culture=maghreb_arabic
+	dynasty=8000021
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Fjord Riders start
+500099={
+	name="Thorstein"
+	religion=norse_pagan
+	culture=norse
+	dynasty=8000007
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500199={
+	name="Thorstein"
+	religion=norse_pagan
+	culture=norse
+	dynasty=8000007
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500299={
+	name="Thorstein"
+	religion=catholic
+	culture=norwegian
+	dynasty=8000007
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Ghanan Band
+500098={
+	name="Kanafa"
+	religion=west_african_pagan
+	culture=manden
+	dynasty=8000009
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500198={
+	name="Kanafa"
+	religion=west_african_pagan
+	culture=manden
+	dynasty=8000009
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500298={
+	name="Kanafa"
+	religion=sunni
+	culture=manden
+	dynasty=8000009
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Alan Riders
+500097={
+	name="Aravat"
+	religion=tengri_pagan
+	culture=alan
+	dynasty=8000001
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500197={
+	name="Aravat"
+	religion=orthodox
+	culture=alan
+	dynasty=8000001
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500297={
+	name="Aravat"
+	religion=orthodox
+	culture=alan
+	dynasty=8000001
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Nubian Band
+500096={
+	name="Elijah"
+	religion=miaphysite
+	culture=nubian
+	dynasty=8000013
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500196={
+	name="Elijah"
+	religion=miaphysite
+	culture=nubian
+	dynasty=8000013
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500296={
+	name="Elijah"
+	religion=miaphysite
+	culture=nubian
+	dynasty=8000013
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Persian Band
+500095={
+	name="Maziar"
+	religion=zoroastrian
+	culture=persian
+	dynasty=8000026
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500195={
+	name="Maziar"
+	religion=zoroastrian
+	culture=persian
+	dynasty=8000026
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500295={
+	name="Maziar"
+	religion=zoroastrian
+	culture=persian
+	dynasty=8000026
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+#Genoese Band
+500094={
+	name="Guiseppe"
+	religion=catholic
+	culture=italian
+	dynasty=8000008
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+500194={
+	name="Guiseppe"
+	religion=catholic
+	culture=italian
+	dynasty=8000008
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+500294={
+	name="Guiseppe"
+	religion=catholic
+	culture=italian
+	dynasty=8000008
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Old Saxon Band
+500093={
+	name="Balthasar"
+	religion=norse_pagan
+	culture=old_saxon
+	dynasty=8000014
+
+	752.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+
+500193={
+	name="Balthasar"
+	religion=norse_pagan
+	culture=old_saxon
+	dynasty=8000014
+
+	851.1.1={
+		birth=yes
+	}
+	909.1.1={
+		death=yes
+	}
+}
+
+#Varangian Guard
+500092={
+	name="Leif"
+	religion=catholic
+	culture=norwegian
+	dynasty=8000028
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Druzhina Rus
+500091={
+	name="Yaroslav"
+	religion=orthodox
+	culture=russian
+	dynasty=8000029
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Druzhina Polish
+500090={
+	name="Grzegorz"
+	religion=catholic
+	culture=polish
+	dynasty=8000030
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Pictish Host
+500089={
+	name="Iestan"
+	religion=catholic
+	culture=pictish
+	dynasty=8000031
+
+	1050.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+#Navarrese Company
+500310={
+	name="Alfontso"
+	religion=catholic
+	culture=basque
+	dynasty=8000036
+
+	734.11.3={
+		birth=yes
+	}
+	781.1.1={
+		death=yes
+	}
+}

@@ -1,0 +1,9 @@
+20.1.1={
+	active = no
+	law = succ_feudal_elective
+}
+1066.1.1={
+	liege="k_poland"
+	active = yes
+	holder = 500090
+}

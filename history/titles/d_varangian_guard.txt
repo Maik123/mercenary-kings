@@ -1,0 +1,13 @@
+20.1.1={
+	active = no
+}
+911.1.1={
+	liege="e_byzantium"
+	active = yes
+	set_global_flag = varangian_guard_founded
+	law = succ_feudal_elective
+}
+1066.1.1={
+	holder = 500092
+	capital = 497 #Thrake
+}

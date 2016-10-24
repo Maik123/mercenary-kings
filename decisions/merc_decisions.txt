@@ -1,0 +1,805 @@
+decisions = {
+	adopt_son_merc = {
+		potential = {
+			OR = {
+					has_landed_title = d_swiss_company
+					has_landed_title = d_latinikon
+					has_landed_title = d_alan_band
+					has_landed_title = d_breton_company
+					has_landed_title = d_bulgarian_company  
+					has_landed_title = d_catalan_company  
+					has_landed_title = d_company_of_st_george  
+					has_landed_title = d_cuman_company  
+					has_landed_title = d_danelaw_band  
+					has_landed_title = d_druzhina_polish  
+					has_landed_title = d_druzhina_rus  
+					has_landed_title = d_finnish_band  
+					has_landed_title = d_fjord_riders  
+					has_landed_title = d_genoese_band  
+					has_landed_title = d_ghanan_band  
+					has_landed_title = d_great_company  
+					has_landed_title = d_irish_band  
+					has_landed_title = d_knights_brass_cross  
+					has_landed_title = d_mamluks  
+					has_landed_title = d_nubian_band  
+					has_landed_title = d_old_saxon_band  
+					has_landed_title = d_pannonian_band  
+					has_landed_title = d_pictish_host  
+					has_landed_title = d_rose_company  
+					has_landed_title = d_rus_company  
+					has_landed_title = d_scottish_band  
+					has_landed_title = d_shiite_bedouin_company  
+					has_landed_title = d_shiite_turkic_company  
+					has_landed_title = d_sunni_bedouin_company  
+					has_landed_title = d_sunni_berber_company  
+					has_landed_title = d_sunni_turkic_company 
+					has_landed_title = d_varangian_guard
+					has_landed_title = d_victual_brothers
+					has_landed_title = d_white_company
+					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
+				} 
+		}
+		allow = {
+			NOT = {
+				any_child = {
+					is_female = no
+				}
+			}
+		}
+		effect = {
+			prestige = -200
+			create_character = {
+				random_traits = yes
+				dynasty = FROM
+				female = no
+				age = 5
+				trait = legit_bastard
+			}
+			new_character = {
+				hidden_tooltip = {
+					IF = {
+						FROM = { is_female = no }
+						set_father = FROM
+						set_mother = none
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ask_for_donations = {
+		is_high_prio = yes
+		potential = {
+			ai = no	
+			NOT = {
+				realm_size = 1
+			}
+			OR = {
+					has_landed_title = d_swiss_company
+					has_landed_title = d_latinikon
+					has_landed_title = d_alan_band
+					has_landed_title = d_breton_company
+					has_landed_title = d_bulgarian_company  
+					has_landed_title = d_catalan_company  
+					has_landed_title = d_company_of_st_george  
+					has_landed_title = d_cuman_company  
+					has_landed_title = d_danelaw_band  
+					has_landed_title = d_druzhina_polish  
+					has_landed_title = d_druzhina_rus  
+					has_landed_title = d_finnish_band  
+					has_landed_title = d_fjord_riders  
+					has_landed_title = d_genoese_band  
+					has_landed_title = d_ghanan_band  
+					has_landed_title = d_great_company  
+					has_landed_title = d_irish_band  
+					has_landed_title = d_knights_brass_cross  
+					has_landed_title = d_mamluks  
+					has_landed_title = d_nubian_band  
+					has_landed_title = d_old_saxon_band  
+					has_landed_title = d_pannonian_band  
+					has_landed_title = d_pictish_host  
+					has_landed_title = d_rose_company  
+					has_landed_title = d_rus_company  
+					has_landed_title = d_scottish_band  
+					has_landed_title = d_shiite_bedouin_company  
+					has_landed_title = d_shiite_turkic_company  
+					has_landed_title = d_sunni_bedouin_company  
+					has_landed_title = d_sunni_berber_company  
+					has_landed_title = d_sunni_turkic_company 
+					has_landed_title = d_varangian_guard
+					has_landed_title = d_victual_brothers
+					has_landed_title = d_white_company
+					has_landed_title = d_zoroastrian_band
+					has_landed_title = d_navarrese_company
+				} 
+			NOT = { has_character_modifier = asked_for_donation_mk }
+		}
+		allow = {
+			war = no
+			prisoner = no
+			NOT = { wealth = 150 }
+			prestige = 0
+		}
+		effect = {
+			add_character_modifier = { name = asked_for_donation_mk months = 180}
+			prestige = -750
+			any_independent_ruler = {
+				limit = {
+					OR = {
+						culture_group = ROOT
+						religion = ROOT
+					}
+				}
+				character_event = { id = mkmod.1 days = 17 tooltip = "is approached for business." }
+			}
+		}
+	}
+		
+	#Build first castle
+	build_castle = {
+		is_high_prio = yes
+		potential = {
+			ai = no	
+			OR = {
+					has_landed_title = d_swiss_company
+					has_landed_title = d_latinikon
+					has_landed_title = d_alan_band
+					has_landed_title = d_breton_company
+					has_landed_title = d_bulgarian_company  
+					has_landed_title = d_catalan_company  
+					has_landed_title = d_company_of_st_george  
+					has_landed_title = d_cuman_company  
+					has_landed_title = d_danelaw_band  
+					has_landed_title = d_druzhina_polish  
+					has_landed_title = d_druzhina_rus  
+					has_landed_title = d_finnish_band  
+					has_landed_title = d_fjord_riders  
+					has_landed_title = d_genoese_band  
+					has_landed_title = d_ghanan_band  
+					has_landed_title = d_great_company  
+					has_landed_title = d_irish_band  
+					has_landed_title = d_knights_brass_cross  
+					has_landed_title = d_mamluks  
+					has_landed_title = d_nubian_band  
+					has_landed_title = d_old_saxon_band  
+					has_landed_title = d_pannonian_band  
+					has_landed_title = d_pictish_host  
+					has_landed_title = d_rose_company  
+					has_landed_title = d_rus_company  
+					has_landed_title = d_scottish_band  
+					has_landed_title = d_shiite_bedouin_company  
+					has_landed_title = d_shiite_turkic_company  
+					has_landed_title = d_sunni_bedouin_company  
+					has_landed_title = d_sunni_berber_company  
+					has_landed_title = d_sunni_turkic_company 
+					has_landed_title = d_varangian_guard
+					has_landed_title = d_victual_brothers
+					has_landed_title = d_white_company
+					has_landed_title = d_zoroastrian_band
+				} 
+			NOT = {
+				realm_size = 1
+			}
+		}
+		allow = {
+			war = no
+			prisoner = no
+			wealth = 300
+			location = {
+				has_empty_holding = yes
+			}
+		}
+		effect = {
+			wealth = -300
+			prestige = 100
+			location = {
+				build_holding = {
+					type = castle
+					holder = ROOT
+				}
+			}
+		}
+	}
+	
+	#Build another castle
+	expand_realm_castle = {
+		is_high_prio = yes
+		potential = {
+			ai = no	
+			OR = {
+					has_landed_title = d_swiss_company
+					has_landed_title = d_latinikon
+					has_landed_title = d_alan_band
+					has_landed_title = d_breton_company
+					has_landed_title = d_bulgarian_company  
+					has_landed_title = d_catalan_company  
+					has_landed_title = d_company_of_st_george  
+					has_landed_title = d_cuman_company  
+					has_landed_title = d_danelaw_band  
+					has_landed_title = d_druzhina_polish  
+					has_landed_title = d_druzhina_rus  
+					has_landed_title = d_finnish_band  
+					has_landed_title = d_fjord_riders  
+					has_landed_title = d_genoese_band  
+					has_landed_title = d_ghanan_band  
+					has_landed_title = d_great_company  
+					has_landed_title = d_irish_band  
+					has_landed_title = d_knights_brass_cross  
+					has_landed_title = d_mamluks  
+					has_landed_title = d_nubian_band  
+					has_landed_title = d_old_saxon_band  
+					has_landed_title = d_pannonian_band  
+					has_landed_title = d_pictish_host  
+					has_landed_title = d_rose_company  
+					has_landed_title = d_rus_company  
+					has_landed_title = d_scottish_band  
+					has_landed_title = d_shiite_bedouin_company  
+					has_landed_title = d_shiite_turkic_company  
+					has_landed_title = d_sunni_bedouin_company  
+					has_landed_title = d_sunni_berber_company  
+					has_landed_title = d_sunni_turkic_company
+					has_landed_title = d_varangian_guard
+					has_landed_title = d_victual_brothers
+					has_landed_title = d_white_company
+					has_landed_title = d_zoroastrian_band
+				} 
+			realm_size = 1
+			is_feudal = yes
+		}
+		allow = {
+			war = no
+			prisoner = no
+			wealth = 800
+			prestige = 800
+			location = {
+				has_empty_holding = yes
+			}
+		}
+		effect = {
+			wealth = -800
+			prestige = -800
+			location = {
+				build_holding = {
+					type = castle
+					holder = ROOT
+				}
+			}
+		}
+	}
+	change_warband_religion = {
+		is_high_prio = yes
+		potential = {
+			ai = no	
+			OR = {
+					has_landed_title = d_swiss_company
+					has_landed_title = d_latinikon
+					has_landed_title = d_alan_band
+					has_landed_title = d_breton_company
+					has_landed_title = d_bulgarian_company  
+					has_landed_title = d_catalan_company  
+					has_landed_title = d_company_of_st_george  
+					has_landed_title = d_cuman_company  
+					has_landed_title = d_danelaw_band  
+					has_landed_title = d_druzhina_polish  
+					has_landed_title = d_druzhina_rus  
+					has_landed_title = d_finnish_band  
+					has_landed_title = d_fjord_riders  
+					has_landed_title = d_genoese_band  
+					has_landed_title = d_ghanan_band  
+					has_landed_title = d_great_company  
+					has_landed_title = d_irish_band  
+					has_landed_title = d_knights_brass_cross  
+					has_landed_title = d_mamluks  
+					has_landed_title = d_nubian_band  
+					has_landed_title = d_old_saxon_band  
+					has_landed_title = d_pannonian_band  
+					has_landed_title = d_pictish_host  
+					has_landed_title = d_rose_company  
+					has_landed_title = d_rus_company  
+					has_landed_title = d_scottish_band  
+					has_landed_title = d_shiite_bedouin_company  
+					has_landed_title = d_shiite_turkic_company  
+					has_landed_title = d_sunni_bedouin_company  
+					has_landed_title = d_sunni_berber_company  
+					has_landed_title = d_sunni_turkic_company
+					has_landed_title = d_varangian_guard
+					has_landed_title = d_victual_brothers
+					has_landed_title = d_white_company
+					has_landed_title = d_zoroastrian_band
+				} 
+			capital_scope = {
+				NOT = { religion = ROOT }
+			}
+		}
+		allow = {
+			war = no
+			prisoner = no
+			prestige = 500
+		}
+		effect = {
+			prestige = -500
+			religion_authority = {
+				modifier = ruler_converted_from
+			}
+			capital_scope = {
+				ROOT = {
+					primary_title = {
+						religion = PREVPREV
+					}
+				}
+				reverse_religion = ROOT
+			}
+		}
+	}
+	
+	change_to_reformed_norse = {
+	is_high_prio = yes
+		potential = {
+			ai = no	
+			OR = {
+					has_landed_title = d_swiss_company
+					has_landed_title = d_latinikon
+					has_landed_title = d_alan_band
+					has_landed_title = d_breton_company
+					has_landed_title = d_bulgarian_company  
+					has_landed_title = d_catalan_company  
+					has_landed_title = d_company_of_st_george  
+					has_landed_title = d_cuman_company  
+					has_landed_title = d_danelaw_band  
+					has_landed_title = d_druzhina_polish  
+					has_landed_title = d_druzhina_rus  
+					has_landed_title = d_finnish_band  
+					has_landed_title = d_fjord_riders  
+					has_landed_title = d_genoese_band  
+					has_landed_title = d_ghanan_band  
+					has_landed_title = d_great_company  
+					has_landed_title = d_irish_band  
+					has_landed_title = d_knights_brass_cross  
+					has_landed_title = d_mamluks  
+					has_landed_title = d_nubian_band  
+					has_landed_title = d_old_saxon_band  
+					has_landed_title = d_pannonian_band  
+					has_landed_title = d_pictish_host  
+					has_landed_title = d_rose_company  
+					has_landed_title = d_rus_company  
+					has_landed_title = d_scottish_band  
+					has_landed_title = d_shiite_bedouin_company  
+					has_landed_title = d_shiite_turkic_company  
+					has_landed_title = d_sunni_bedouin_company  
+					has_landed_title = d_sunni_berber_company  
+					has_landed_title = d_sunni_turkic_company
+					has_landed_title = d_varangian_guard
+					has_landed_title = d_victual_brothers
+					has_landed_title = d_white_company
+					has_landed_title = d_zoroastrian_band					
+				} 
+			religion = norse_pagan
+			d_norse_pagan_reformed = {
+				has_holder = yes
+			}
+		}
+		allow = {
+			war = no
+			prisoner = no
+		}
+		effect = {
+			religion_authority = {
+				modifier = ruler_converted_from
+			}
+			religion = norse_pagan_reformed
+			primary_title = {
+					religion = norse_pagan_reformed
+			}
+		}
+	}
+	
+	change_to_reformed_tengri = {
+	is_high_prio = yes
+		potential = {
+			ai = no	
+			OR = {
+					has_landed_title = d_swiss_company
+					has_landed_title = d_latinikon
+					has_landed_title = d_alan_band
+					has_landed_title = d_breton_company
+					has_landed_title = d_bulgarian_company  
+					has_landed_title = d_catalan_company  
+					has_landed_title = d_company_of_st_george  
+					has_landed_title = d_cuman_company  
+					has_landed_title = d_danelaw_band  
+					has_landed_title = d_druzhina_polish  
+					has_landed_title = d_druzhina_rus  
+					has_landed_title = d_finnish_band  
+					has_landed_title = d_fjord_riders  
+					has_landed_title = d_genoese_band  
+					has_landed_title = d_ghanan_band  
+					has_landed_title = d_great_company  
+					has_landed_title = d_irish_band  
+					has_landed_title = d_knights_brass_cross  
+					has_landed_title = d_mamluks  
+					has_landed_title = d_nubian_band  
+					has_landed_title = d_old_saxon_band  
+					has_landed_title = d_pannonian_band  
+					has_landed_title = d_pictish_host  
+					has_landed_title = d_rose_company  
+					has_landed_title = d_rus_company  
+					has_landed_title = d_scottish_band  
+					has_landed_title = d_shiite_bedouin_company  
+					has_landed_title = d_shiite_turkic_company  
+					has_landed_title = d_sunni_bedouin_company  
+					has_landed_title = d_sunni_berber_company  
+					has_landed_title = d_sunni_turkic_company
+					has_landed_title = d_varangian_guard
+					has_landed_title = d_victual_brothers
+					has_landed_title = d_white_company
+					has_landed_title = d_zoroastrian_band
+				} 
+			religion = tengri_pagan
+			d_tengri_pagan_reformed = {
+				has_holder = yes
+			}
+		}
+		allow = {
+			war = no
+			prisoner = no
+		}
+		effect = {
+			religion_authority = {
+				modifier = ruler_converted_from
+			}
+			religion = tengri_pagan_reformed
+			primary_title = {
+					religion = tengri_pagan_reformed
+			}
+		}
+	}
+	
+	change_to_reformed_finnish = {
+	is_high_prio = yes
+		potential = {
+			ai = no	
+			OR = {
+					has_landed_title = d_swiss_company
+					has_landed_title = d_latinikon
+					has_landed_title = d_alan_band
+					has_landed_title = d_breton_company
+					has_landed_title = d_bulgarian_company  
+					has_landed_title = d_catalan_company  
+					has_landed_title = d_company_of_st_george  
+					has_landed_title = d_cuman_company  
+					has_landed_title = d_danelaw_band  
+					has_landed_title = d_druzhina_polish  
+					has_landed_title = d_druzhina_rus  
+					has_landed_title = d_finnish_band  
+					has_landed_title = d_fjord_riders  
+					has_landed_title = d_genoese_band  
+					has_landed_title = d_ghanan_band  
+					has_landed_title = d_great_company  
+					has_landed_title = d_irish_band  
+					has_landed_title = d_knights_brass_cross  
+					has_landed_title = d_mamluks  
+					has_landed_title = d_nubian_band  
+					has_landed_title = d_old_saxon_band  
+					has_landed_title = d_pannonian_band  
+					has_landed_title = d_pictish_host  
+					has_landed_title = d_rose_company  
+					has_landed_title = d_rus_company  
+					has_landed_title = d_scottish_band  
+					has_landed_title = d_shiite_bedouin_company  
+					has_landed_title = d_shiite_turkic_company  
+					has_landed_title = d_sunni_bedouin_company  
+					has_landed_title = d_sunni_berber_company  
+					has_landed_title = d_sunni_turkic_company 
+					has_landed_title = d_varangian_guard
+					has_landed_title = d_victual_brothers
+					has_landed_title = d_white_company
+					has_landed_title = d_zoroastrian_band
+				} 
+			religion = finnish_pagan
+			d_finnish_pagan_reformed = {
+				has_holder = yes
+			}
+		}
+		allow = {
+			war = no
+			prisoner = no
+		}
+		effect = {
+			religion_authority = {
+				modifier = ruler_converted_from
+			}
+			religion = finnish_pagan_reformed
+			primary_title = {
+					religion = finnish_pagan_reformed
+			}
+		}
+	}
+	
+	change_to_reformed_slavic = {
+	is_high_prio = yes
+		potential = {
+			ai = no	
+			OR = {
+					has_landed_title = d_swiss_company
+					has_landed_title = d_latinikon
+					has_landed_title = d_alan_band
+					has_landed_title = d_breton_company
+					has_landed_title = d_bulgarian_company  
+					has_landed_title = d_catalan_company  
+					has_landed_title = d_company_of_st_george  
+					has_landed_title = d_cuman_company  
+					has_landed_title = d_danelaw_band  
+					has_landed_title = d_druzhina_polish  
+					has_landed_title = d_druzhina_rus  
+					has_landed_title = d_finnish_band  
+					has_landed_title = d_fjord_riders  
+					has_landed_title = d_genoese_band  
+					has_landed_title = d_ghanan_band  
+					has_landed_title = d_great_company  
+					has_landed_title = d_irish_band  
+					has_landed_title = d_knights_brass_cross  
+					has_landed_title = d_mamluks  
+					has_landed_title = d_nubian_band  
+					has_landed_title = d_old_saxon_band  
+					has_landed_title = d_pannonian_band  
+					has_landed_title = d_pictish_host  
+					has_landed_title = d_rose_company  
+					has_landed_title = d_rus_company  
+					has_landed_title = d_scottish_band  
+					has_landed_title = d_shiite_bedouin_company  
+					has_landed_title = d_shiite_turkic_company  
+					has_landed_title = d_sunni_bedouin_company  
+					has_landed_title = d_sunni_berber_company  
+					has_landed_title = d_sunni_turkic_company
+					has_landed_title = d_varangian_guard
+					has_landed_title = d_victual_brothers
+					has_landed_title = d_white_company
+					has_landed_title = d_zoroastrian_band
+				} 
+			religion = slavic_pagan
+			d_slavic_pagan_reformed = {
+				has_holder = yes
+			}
+		}
+		allow = {
+			war = no
+			prisoner = no
+		}
+		effect = {
+			religion_authority = {
+				modifier = ruler_converted_from
+			}
+			religion = slavic_pagan_reformed
+			primary_title = {
+					religion = slavic_pagan_reformed
+			}
+		}
+	}
+	
+	change_to_reformed_baltic = {
+	is_high_prio = yes
+		potential = {
+			ai = no	
+			OR = {
+					has_landed_title = d_swiss_company
+					has_landed_title = d_latinikon
+					has_landed_title = d_alan_band
+					has_landed_title = d_breton_company
+					has_landed_title = d_bulgarian_company  
+					has_landed_title = d_catalan_company  
+					has_landed_title = d_company_of_st_george  
+					has_landed_title = d_cuman_company  
+					has_landed_title = d_danelaw_band  
+					has_landed_title = d_druzhina_polish  
+					has_landed_title = d_druzhina_rus  
+					has_landed_title = d_finnish_band  
+					has_landed_title = d_fjord_riders  
+					has_landed_title = d_genoese_band  
+					has_landed_title = d_ghanan_band  
+					has_landed_title = d_great_company  
+					has_landed_title = d_irish_band  
+					has_landed_title = d_knights_brass_cross  
+					has_landed_title = d_mamluks  
+					has_landed_title = d_nubian_band  
+					has_landed_title = d_old_saxon_band  
+					has_landed_title = d_pannonian_band  
+					has_landed_title = d_pictish_host  
+					has_landed_title = d_rose_company  
+					has_landed_title = d_rus_company  
+					has_landed_title = d_scottish_band  
+					has_landed_title = d_shiite_bedouin_company  
+					has_landed_title = d_shiite_turkic_company  
+					has_landed_title = d_sunni_bedouin_company  
+					has_landed_title = d_sunni_berber_company  
+					has_landed_title = d_sunni_turkic_company 
+					has_landed_title = d_varangian_guard
+					has_landed_title = d_victual_brothers
+					has_landed_title = d_white_company
+					has_landed_title = d_zoroastrian_band
+				} 
+			religion = baltic_pagan
+			d_baltic_pagan_reformed = {
+				has_holder = yes
+			}
+		}
+		allow = {
+			war = no
+			prisoner = no
+		}
+		effect = {
+			religion_authority = {
+				modifier = ruler_converted_from
+			}
+			religion = baltic_pagan_reformed
+			primary_title = {
+					religion = baltic_pagan_reformed
+			}
+		}
+	}
+	
+	#MAMLUK DECISIONS BEGIN
+	african_slaves_mamluk = {
+		potential = {
+			ai = no
+			has_landed_title = d_mamluks
+		}
+		allow = {
+			war = no
+			prisoner = no
+			wealth = 30
+		}
+		effect = {
+			wealth = -30
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ethiopian
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ethiopian
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = nubian
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = nubian
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = somali
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = somali
+			}
+		}
+	}
+	
+	turkic_slaves_mamluk = {
+		potential = {
+			ai = no
+			has_landed_title = d_mamluks
+		}
+		allow = {
+			war = no
+			prisoner = no
+			wealth = 90
+		}
+		effect = {
+			wealth = -90
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = cuman
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = turkish
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = turkish
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = pecheneg
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = khazar
+			}
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = karluk
+			}
+		}
+	}
+	#MAMLUK DECISIONS END
+	
+	#OVERTHROW RULER AS MERCENARY BAND, ESTABLISH KINGDOM.
+	#overthrow_ruler_mk = {
+	#	potential = {
+	#		OR = {
+	#				has_landed_title = d_swiss_company
+	#				has_landed_title = d_latinikon
+	#				has_landed_title = d_alan_band
+	#				has_landed_title = d_breton_company
+	#				has_landed_title = d_bulgarian_company  
+	#				has_landed_title = d_catalan_company  
+	#				has_landed_title = d_company_of_st_george  
+	#				has_landed_title = d_cuman_company  
+	#				has_landed_title = d_danelaw_band  
+	#				has_landed_title = d_druzhina_polish  
+	#				has_landed_title = d_druzhina_rus  
+	#				has_landed_title = d_finnish_band  
+	#				has_landed_title = d_fjord_riders  
+	#				has_landed_title = d_genoese_band  
+	#				has_landed_title = d_ghanan_band  
+	#				has_landed_title = d_great_company  
+	#				has_landed_title = d_irish_band  
+	#				has_landed_title = d_knights_brass_cross  
+	#				has_landed_title = d_mamluks  
+	#				has_landed_title = d_nubian_band  
+	#				has_landed_title = d_old_saxon_band  
+	#				has_landed_title = d_pannonian_band  
+	#				has_landed_title = d_pictish_host  
+	#				has_landed_title = d_rose_company  
+	#				has_landed_title = d_rus_company  
+	#				has_landed_title = d_scottish_band  
+	#				has_landed_title = d_shiite_bedouin_company  
+	#				has_landed_title = d_shiite_turkic_company  
+	#				has_landed_title = d_sunni_bedouin_company  
+	#				has_landed_title = d_sunni_berber_company  
+	#				has_landed_title = d_sunni_turkic_company 
+	#				has_landed_title = d_varangian_guard
+	#				has_landed_title = d_victual_brothers
+	#				has_landed_title = d_white_company
+	#				has_landed_title = d_zoroastrian_band
+	#			} 
+	#	}
+	#	allow = {
+	#		independent = no
+	#		prestige = 1000
+	#		cash = 1000
+	#	}
+	#	effect = {
+	#		prestige = -1000
+	#		cash = -1000
+	#		add_claim = {
+	#			
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+}

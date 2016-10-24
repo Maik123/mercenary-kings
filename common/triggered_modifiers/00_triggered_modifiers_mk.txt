@@ -1,0 +1,1252 @@
+####################################################################################################
+#
+# MERCENARY RELATED THINGS, VERY IMPORTANT DO NOT MESS WITH UNLESS YOU KNOW WHAT YOU'RE DOING
+#
+####################################################################################################
+
+#Getting Employed by your liege with holdings
+curr_employed_liege = {
+	
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company 
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band
+		}
+		independent = no
+		any_liege = {
+			war = yes
+		}
+		realm_size = 2
+	}
+	icon = 1
+	monthly_character_wealth = 6
+}
+
+curr_employed_liege_unlanded = {
+	
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		independent = no
+		any_liege = {
+			war = yes
+		}
+		NOT = {
+			realm_size = 2
+			}
+	}
+	icon = 1
+	monthly_character_wealth = 20
+}
+
+#What size is your realm? Benefits
+in_command_mk_1 = {
+
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		NOT = {
+			realm_size = 2
+			}
+	}
+	icon = 6
+	monthly_character_wealth = 0.5
+	monthly_character_prestige = 1
+}
+
+in_command_mk_2 = {
+
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		realm_size = 2
+		NOT = {
+			realm_size = 5
+			}
+	}
+	icon = 6
+	monthly_character_wealth = 1
+	monthly_character_prestige = 1.5
+}
+
+in_command_mk_3 = {
+
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		realm_size = 5
+		NOT = {
+			realm_size = 10
+			}
+	}
+	icon = 6
+	monthly_character_wealth = 1.5
+	monthly_character_prestige = 3
+}
+
+in_command_mk_4 = {
+
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		realm_size = 10
+		NOT = {
+			realm_size = 20
+			}
+	}
+	icon = 6
+	monthly_character_wealth = 2
+	monthly_character_prestige = 5
+}
+
+in_command_mk_5 = {
+
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		realm_size = 20
+		NOT = {
+			realm_size = 25
+			}
+	}
+	icon = 6
+	monthly_character_wealth = 2.5
+	monthly_character_prestige = 7.5
+}
+
+in_command_mk_6 = {
+
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		realm_size = 25
+		NOT = {
+			realm_size = 30
+			}
+	}
+	icon = 6
+	monthly_character_wealth = 3
+	monthly_character_prestige = 10.5
+}
+
+in_command_mk_7 = {
+
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		realm_size = 30
+		NOT = {
+			realm_size = 35
+			}
+	}
+	icon = 6
+	monthly_character_wealth = 3.5
+	monthly_character_prestige = 13.5
+}
+
+in_command_mk_8 = {
+
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		realm_size = 35
+		NOT = {
+			realm_size = 50
+			}
+	}
+	icon = 6
+	monthly_character_wealth = 4
+	monthly_character_prestige = 17
+}
+
+in_command_mk_9 = {
+
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		realm_size = 50
+		NOT = {
+			realm_size = 75
+			}
+	}
+	icon = 6
+	monthly_character_wealth = 4.5
+	monthly_character_prestige = 21
+}
+
+in_command_mk_10 = {
+
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		realm_size = 100
+	}
+	icon = 6
+	monthly_character_wealth = 5
+	monthly_character_prestige = 25.5
+}
+
+soldiers_unpaid_mk = {
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		NOT = {
+			wealth = 1
+		}
+	}
+	land_morale = -0.65
+	land_organisation = -0.65
+	monthly_character_prestige = -3
+	icon = 19
+}
+
+war_is_profitable_mk_1 = {
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		war = yes
+		is_primary_war_attacker = no
+		is_primary_war_defender = no
+		NOT = {
+			prestige = 200
+		}
+	}
+	icon = 1
+	monthly_character_wealth = 3
+}
+
+war_is_profitable_mk_2 = {
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		war = yes
+		is_primary_war_attacker = no
+		is_primary_war_defender = no
+		prestige = 200
+		NOT = {
+			prestige = 500
+		}
+	}
+	icon = 1
+	monthly_character_wealth = 5
+}
+
+war_is_profitable_mk_3 = {
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		war = yes
+		is_primary_war_attacker = no
+		is_primary_war_defender = no
+		prestige = 500
+		NOT = {
+			prestige = 1000
+		}
+	}
+	icon = 1
+	monthly_character_wealth = 7.5
+}
+
+war_is_profitable_mk_4 = {
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		war = yes
+		is_primary_war_attacker = no
+		is_primary_war_defender = no
+		prestige = 1000
+		NOT = {
+			prestige = 2000
+		}
+	}
+	icon = 1
+	monthly_character_wealth = 10
+}
+
+war_is_profitable_mk_5 = {
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		war = yes
+		is_primary_war_attacker = no
+		is_primary_war_defender = no
+		prestige = 2000
+		NOT = {
+			prestige = 3500
+		}
+	}
+	icon = 1
+	monthly_character_wealth = 20
+}
+
+war_is_profitable_mk_6 = {
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		war = yes
+		is_primary_war_attacker = no
+		is_primary_war_defender = no
+		prestige = 3500
+		NOT = {
+			prestige = 5000
+		}
+	}
+	icon = 1
+	monthly_character_wealth = 30
+}
+
+war_is_profitable_mk_7 = {
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		war = yes
+		is_primary_war_attacker = no
+		is_primary_war_defender = no
+		prestige = 5000
+		NOT = {
+			prestige = 6500
+		}
+	}
+	icon = 1
+	monthly_character_wealth = 40
+}
+
+war_is_profitable_mk_8 = {
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		war = yes
+		is_primary_war_attacker = no
+		is_primary_war_defender = no
+		prestige = 6500
+		NOT = {
+			prestige = 8000
+		}
+	}
+	icon = 1
+	monthly_character_wealth = 50
+}
+
+war_is_profitable_mk_9 = {
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		war = yes
+		is_primary_war_attacker = no
+		is_primary_war_defender = no
+		prestige = 8000
+		NOT = {
+			prestige = 10000
+		}
+	}
+	icon = 1
+	monthly_character_wealth = 65
+}
+
+war_is_profitable_mk_10 = {
+	potential = {
+		ai = no
+	}
+	
+	trigger = {
+		OR = {
+			has_landed_title = d_swiss_company
+			has_landed_title = d_latinikon
+			has_landed_title = d_alan_band
+			has_landed_title = d_breton_company
+			has_landed_title = d_bulgarian_company  
+			has_landed_title = d_catalan_company  
+			has_landed_title = d_company_of_st_george  
+			has_landed_title = d_cuman_company  
+			has_landed_title = d_danelaw_band  
+			has_landed_title = d_druzhina_polish  
+			has_landed_title = d_druzhina_rus  
+			has_landed_title = d_finnish_band  
+			has_landed_title = d_fjord_riders  
+			has_landed_title = d_genoese_band  
+			has_landed_title = d_ghanan_band  
+			has_landed_title = d_great_company  
+			has_landed_title = d_irish_band  
+			has_landed_title = d_knights_brass_cross  
+			has_landed_title = d_mamluks  
+			has_landed_title = d_nubian_band  
+			has_landed_title = d_old_saxon_band  
+			has_landed_title = d_pannonian_band  
+			has_landed_title = d_pictish_host  
+			has_landed_title = d_rose_company  
+			has_landed_title = d_rus_company  
+			has_landed_title = d_scottish_band  
+			has_landed_title = d_shiite_bedouin_company  
+			has_landed_title = d_shiite_turkic_company  
+			has_landed_title = d_sunni_bedouin_company  
+			has_landed_title = d_sunni_berber_company  
+			has_landed_title = d_sunni_turkic_company
+			has_landed_title = d_varangian_guard
+			has_landed_title = d_victual_brothers
+			has_landed_title = d_white_company
+			has_landed_title = d_zoroastrian_band			
+		}
+		war = yes
+		is_primary_war_attacker = no
+		is_primary_war_defender = no
+		prestige = 10000
+	}
+	icon = 1
+	monthly_character_wealth = 100
+}
