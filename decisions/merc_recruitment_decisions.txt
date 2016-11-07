@@ -123,20 +123,20 @@ decisions = {
 			}
 		}
 		allow = {
-			wealth = 170
+			wealth = 98
 			in_command = yes
 		}
 		effect = {
-			wealth = -170
+			wealth = -98
 			ROOT = {
 				spawn_unit = {
 					province = PREV
 					owner = ROOT
 					troops = {
 						#light_infantry = { 800 800 }
-						archers = { 500 500 }
+						archers = { 50 50 }
 						#pikemen= { 200 200 }
-						heavy_infantry = { 2000 2000 }
+						heavy_infantry = { 200 200 }
 						#light_cavalry = { 200 200 }
 						#knights = { 1500 1500}
 						#horse_archers = { 1000 1000 }
@@ -144,7 +144,7 @@ decisions = {
 					}
 					maintenance_multiplier = 0.175
 					reinforces = yes
-					reinforce_rate_multiplier = 1.4
+					#reinforce_rate_multiplier = 1.4
 				}
 			}
 		}
@@ -194,19 +194,19 @@ decisions = {
 			}
 		}
 		allow = {
-			wealth = 125
+			wealth = 84
 			in_command = yes
 		}
 		effect = {
-			wealth = -125
+			wealth = -84
 			ROOT = {
 				spawn_unit = {
 					province = PREV
 					owner = ROOT
 					troops = {
 						#light_infantry = { 800 800 }
-						archers = { 500 500 }
-						pikemen= { 2500 2500 }
+						archers = { 50 50 }
+						pikemen= { 250 250 }
 						#heavy_infantry = { 2000 2000 }
 						#light_cavalry = { 200 200 }
 						#knights = { 1500 1500}
@@ -214,7 +214,7 @@ decisions = {
 					}
 					maintenance_multiplier = 0.15
 					reinforces = yes
-					reinforce_rate_multiplier = 1.8
+					#reinforce_rate_multiplier = 1.8
 				}
 			}
 		}
@@ -264,11 +264,11 @@ decisions = {
 			}
 		}
 		allow = {
-			wealth = 285
+			wealth = 126
 			in_command = yes
 		}
 		effect = {
-			wealth = -285
+			wealth = -126
 			ROOT = {
 				spawn_unit = {
 					province = PREV
@@ -278,13 +278,13 @@ decisions = {
 						#archers = { 500 500 }
 						#pikemen= { 200 200 }
 						#heavy_infantry = { 2000 2000 }
-						light_cavalry = { 2000 2000 }
-						knights = { 500 500}
+						light_cavalry = { 200 200 }
+						knights = { 50 50}
 						#horse_archers = { 1000 1000 }
 					}
 					maintenance_multiplier = 0.225
 					reinforces = yes
-					reinforce_rate_multiplier = 1.4
+					#reinforce_rate_multiplier = 1.4
 				}
 			}
 		}
@@ -334,27 +334,27 @@ decisions = {
 			}
 		}
 		allow = {
-			wealth = 105
+			wealth = 77
 			in_command = yes
 		}
 		effect = {
-			wealth = -105
+			wealth = -77
 			ROOT = {
 				spawn_unit = {
 					province = PREV
 					owner = ROOT
 					troops = {
 						#light_infantry = { 800 800 }
-						archers = { 2000 2000 }
+						archers = { 200 200 }
 						#pikemen= { 200 200 }
-						heavy_infantry = { 500 500 }
+						heavy_infantry = { 50 50 }
 						#light_cavalry = { 200 200 }
 						#knights = { 1500 1500}
 						#horse_archers = { 1000 1000 }
 					}
 					maintenance_multiplier = 0.1375
 					reinforces = yes
-					reinforce_rate_multiplier = 1.4
+					#reinforce_rate_multiplier = 1.4
 				}
 			}
 		}
@@ -404,18 +404,18 @@ decisions = {
 			}
 		}
 		allow = {
-			wealth = 120
+			wealth = 81
 			in_command = yes
 		}
 		effect = {
-			wealth = -120
+			wealth = -81
 			ROOT = {
 				spawn_unit = {
 					province = PREV
 					owner = ROOT
 					troops = {
-						light_infantry = { 4000 4000 }
-						archers = { 1500 1500 }
+						light_infantry = { 400 400 }
+						archers = { 150 150 }
 						#pikemen= { 200 200 }
 						#heavy_infantry = { 2000 2000 }
 						#light_cavalry = { 200 200 }
@@ -424,7 +424,7 @@ decisions = {
 					}
 					maintenance_multiplier = 0.145
 					reinforces = yes
-					reinforce_rate_multiplier = 1.7
+					#reinforce_rate_multiplier = 1.7
 				}
 			}
 		}
@@ -481,11 +481,11 @@ decisions = {
 			}
 		}
 		allow = {
-			wealth = 505
+			wealth = 168
 			in_command = yes
 		}
 		effect = {
-			wealth = -505
+			wealth = -168
 			ROOT = {
 				spawn_unit = {
 					province = PREV
@@ -495,13 +495,13 @@ decisions = {
 						#archers = { 500 500 }
 						#pikemen= { 200 200 }
 						#heavy_infantry = { 2000 2000 }
-						light_cavalry = { 1000 1000 }
-						knights = { 1500 1500}
+						light_cavalry = { 100 100 }
+						knights = { 150 150}
 						#horse_archers = { 1000 1000 }
 					}
 					maintenance_multiplier = 0.3
 					reinforces = yes
-					reinforce_rate_multiplier = 1.4
+					#reinforce_rate_multiplier = 1.4
 				}
 			}
 		}
@@ -552,22 +552,22 @@ decisions = {
 			}
 		}
 		allow = {
-			wealth = 590
+			wealth = 182
 			in_command = yes
 		}
 		effect = {
-			wealth = -590
+			wealth = -182
 			ROOT = {
 				spawn_unit = {
 					province = PREV
 					owner = ROOT
 					troops = {
-						knights = { 1500 1500}
-						horse_archers = { 1000 1000 }
+						knights = { 150 150}
+						horse_archers = { 100 100 }
 					}
 					maintenance_multiplier = 0.325
 					reinforces = yes
-					reinforce_rate_multiplier = 1.4
+					#reinforce_rate_multiplier = 1.4
 				}
 			}
 		}
