@@ -572,6 +572,71 @@ decisions = {
 			}
 		}
 	}
+
+	raise_caballero = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			culture_group = iberian
+			OR = {
+				has_landed_title = d_swiss_company
+				has_landed_title = d_latinikon
+				has_landed_title = d_alan_band
+				has_landed_title = d_breton_company
+				has_landed_title = d_bulgarian_company  
+				has_landed_title = d_catalan_company  
+				has_landed_title = d_company_of_st_george  
+				has_landed_title = d_cuman_company  
+				has_landed_title = d_danelaw_band  
+				has_landed_title = d_druzhina_polish  
+				has_landed_title = d_druzhina_rus  
+				has_landed_title = d_finnish_band  
+				has_landed_title = d_fjord_riders  
+				has_landed_title = d_genoese_band  
+				has_landed_title = d_ghanan_band  
+				has_landed_title = d_great_company  
+				has_landed_title = d_irish_band  
+				has_landed_title = d_knights_brass_cross  
+				has_landed_title = d_mamluks  
+				has_landed_title = d_nubian_band  
+				has_landed_title = d_old_saxon_band  
+				has_landed_title = d_pannonian_band  
+				has_landed_title = d_pictish_host  
+				has_landed_title = d_rose_company  
+				has_landed_title = d_rus_company  
+				has_landed_title = d_scottish_band  
+				has_landed_title = d_shiite_bedouin_company  
+				has_landed_title = d_shiite_turkic_company  
+				has_landed_title = d_sunni_bedouin_company  
+				has_landed_title = d_sunni_berber_company  
+				has_landed_title = d_sunni_turkic_company
+				has_landed_title = d_varangian_guard
+				has_landed_title = d_victual_brothers
+				has_landed_title = d_white_company
+				has_landed_title = d_zoroastrian_band
+				has_landed_title = d_navarrese_company
+			}
+		}
+		allow = {
+			wealth = 168
+			in_command = yes
+		}
+		effect = {
+			wealth = -168
+			ROOT = {
+				spawn_unit = {
+					province = PREV
+					owner = ROOT
+					troops = {
+						light_cavalry = { 400 400 }
+					}
+					maintenance_multiplier = 0.3
+					reinforces = yes
+					#reinforce_rate_multiplier = 1.4
+				}
+			}
+		}
+	}
 	
 	raise_peasants = {
 		is_high_prio = yes
